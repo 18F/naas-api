@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :notification do
     name "MyString"
-    Agency nil
+    agency nil
   end
 end
