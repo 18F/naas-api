@@ -1,5 +1,5 @@
 # naas-api
-API for notifications service prototype
+API for notifications service (notfications-as-a-service or NAAS) prototype
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
