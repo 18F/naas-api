@@ -1,6 +1,8 @@
+require "faker"
+
 FactoryBot.define do
   factory :agency do
-    name "MyString"
-    created_by "MyString"
+    name { Faker::Lorem.word }
+    created_by { Faker::Number.number(10) }
   end
 end

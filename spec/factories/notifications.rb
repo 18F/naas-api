@@ -1,6 +1,8 @@
+require "faker"
+
 FactoryBot.define do
   factory :notification do
-    name "MyString"
+    name { Faker::Lorem.word }
     agency nil
   end
 end
