@@ -1,0 +1,2 @@
+class AgencysController < ApplicationController
+end
