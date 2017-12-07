@@ -73,6 +73,7 @@ GEM
     nio4r (2.1.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
+    pg (0.18.4)
     puma (3.11.0)
     rack (2.0.3)
     rack-test (0.8.2)
@@ -153,6 +154,7 @@ DEPENDENCIES
   factory_bot_rails (~> 4.0)
   faker
   listen (>= 3.0.5, < 3.2)
+  pg (~> 0.18.4)
   puma (~> 3.7)
   rails (~> 5.1.4)
   rspec-rails (~> 3.5)
