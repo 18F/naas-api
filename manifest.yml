@@ -1,10 +1,13 @@
 ---
 applications:
 - name: naas-api
-  random-route: true
-  memory: 256M
+  buildpack: ruby_buildpack
+  command: bin/cf_start
   instances: 1
-  path: .
-  command: bundle exec rake db:migrate && bundle exec rails s -p $PORT
   services:
-    - rails-postgres
+    - postgres
+env:
+  BUNDLE_WITHOUT: development:test
+  RAILS_SERVE_STATIC_FILES: true
+  RAILS_ENV: production
+  RACK_ENV: production

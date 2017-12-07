@@ -1,0 +1,85 @@
+#!/usr/bin/env ruby
+require 'pathname'
+require 'yaml'
+
+# The app's name and URL
+APP_NAME = ENV['APP_NAME'] || 'naas-api'
+
+# path to your application root.
+APP_ROOT = Pathname.new File.expand_path('../../', __FILE__)
+
+def run(command)
+  abort "command failed (#{$CHILD_STATUS}): #{command}" unless system command
+end
+
+
+puts '
+                                                                                         &         
+                                                                                         &&&%      
+                                                                                         &&&&&%    
+&&&&&&&&&&    &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&  
+&&&&&&&&&&&   &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&&&&&&  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& 
+&&&&&&&&&&&&& &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&   
+&&&&&&&&&&&&&&&&&&&&&&&&                                                                 &&&&&     
+&&&&&&&&&&&&&&&&&&&&&&&&  &&&&&&&&&&&&&&&&&&&  &&&&&&&&&&&&&&&&&&&& &&&&&&&&&&&&&&&&&&&& &&&       
+&&&&&&&&&&&&&&&&&&&&&&&&  &&&&&&&&&&&&&&&&&&&  &&&&&&&&&&&&&&&&&&&& &&&&&&&&&&&&&&&&&&&& &         
+&&&&&&&&&&&&&&&&&&&&&&&&  &&&&&&&&   &&&&&&&&  &&&&&&&&    &&&&&&&& &&&&&&&&                       
+&&&&&&&&&&&&&&&&&&&&&&&&  &&&&&&&&&&&&&&&&&&&  &&&&&&&&&&&&&&&&&&&& &&&&&&&&&&&&&&&&&&&&           
+&&&&&&&&&&&&&&&&&&&&&&&&  &&&&&&&&&&&&&&&&&&&  &&&&&&&&&&&&&&&&&&&& &&&&&&&&&&&&&&&&&&&&           
+&&&&&&&&&%&&&&&&&&&&&&&&  &&&&&&&&&&&&&&&&&&&  &&&&&&&&&&&&&&&&&&&& &&&&&&&&&&&&&&&&&&&&           
+&&&&&&&&&% &&&&&&&&&&&&&  &&&&&&&&   &&&&&&&&  &&&&&&&&    &&&&&&&&            &&&&&&&&&           
+&&&&&&&&&%  &&&&&&&&&&&&  &&&&&&&&   &&&&&&&&  &&&&&&&&    &&&&&&&& &&&&&&&&&&&&&&&&&&&&           
+&&&&&&&&&%   &&&&&&&&&&&  &&&&&&&&   &&&&&&&&  &&&&&&&&    &&&&&&&& &&&&&&&&&&&&&&&&&&&&           
+
+
+
+                                            `:-
+                                         `-+ssss/.
+                                      `-+ssssssssso/.
+                                   `./ssssssssssssssso:`
+                                 ./osssssssssossssssssss+-`
+                               -ossssssssssss`/ssssssssssss+
+                               +dhyyssssssss: `osssssssyyhdd`
+                               +ddddhs+++++/   .+++++oyhdddd`
+                               +ddddddy/.         `-ohdddddd`
+                               +ddddddddhs`      :yddddddddd`
+                               +ddddddddds   .`  -dddddddddd`
+                               +ddddddddh.`:shy+- +ddddddddd`
+                               +ddddddddsohddddddy+ddddddddd`
+                               :ydddddddddddddddddddddddddds
+                                `-ohdddddddddddddddddddds/.
+                                   `:ohddddddddddddddy+.
+                                      `:sdddddddddh+.`
+                                         `/ydddho-`
+                                            ./:`
+
+
+'
+
+puts 'Preparing to deploy to cloud.gov... [Press CTRL+C to stop]'
+sleep(3)
+
+Dir.chdir APP_ROOT do
+  puts 'Checking for CF CLI...'
+  cf_ver_string = `cf --version`
+  cf_ver_num = cf_ver_string.split(' ')[2][0..3].to_f
+  raise "\n\nERROR!\n.  Incompatible CF CLI version!\n" \
+        "   Please update to >= 6.32\n\n" if cf_ver_num < 6.32
+
+  puts 'Vendoring dependencies...'
+  run 'bundle package --all'
+
+  # When we add Redis...
+  # puts 'Creating Redis service...'
+  # run 'cf create-service redis32 standard-ha redis'
+
+  puts 'Creating PostgreSQL service...'
+  run 'cf create-service aws-rds shared-psql postgres'
+
+  puts 'Pushing app...'
+  run "cf push #{APP_NAME} -f manifest.yml"
+  
+  # puts 'Starting app...'
+  # run "cf start #{APP_NAME}"
+end
