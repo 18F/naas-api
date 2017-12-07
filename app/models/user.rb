@@ -1,3 +1,3 @@
 class User < ApplicationRecord
-  belongs_to :notification
+  has_many :notifications
 end

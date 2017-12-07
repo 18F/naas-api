@@ -1,4 +1,4 @@
-# app/controllers/Agencys_controller.rb
+# app/controllers/agencies_controller.rb
 class AgenciesController < ApplicationController
   before_action :set_agency, only: [:show, :update, :destroy]
 
