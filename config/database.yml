@@ -1,25 +1,40 @@
-# SQLite version 3.x
-#   gem install sqlite3
-#
-#   Ensure the SQLite 3 gem is defined in your Gemfile
-#   gem 'sqlite3'
-#
-default: &default
+sqlite: &sqlite
   adapter: sqlite3
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
 development:
-  <<: *default
+  <<: *sqlite
   database: db/development.sqlite3
 
-# Warning: The database defined as "test" will be erased and
-# re-generated from your development database when you run "rake".
-# Do not set this db to the same as development or production.
 test:
-  <<: *default
+  <<: *sqlite
   database: db/test.sqlite3
 
+# cloud.gov database compatibility
+<%
+  begin
+    services = JSON.parse(ENV['VCAP_SERVICES'])
+    credentials = services['aws-rds'].first['credentials']
+  rescue
+    credentials = {}
+  end
+%>
+
 production:
-  <<: *default
-  database: db/production.sqlite3
+  adapter: postgresql
+  encoding: unicode
+<% if !credentials.empty? %>
+  database: <%= credentials['db_name'] || '' %>
+  username: <%= credentials['username'] || '' %>
+  host: <%= credentials['host'] || 'localhost' %>
+  password: <%= credentials['password'] || '' %>
+  port: <%= credentials['port'] || '3306' %>
+<% else %>
+  database: <%= ENV['DB_NAME'] %>
+  username: <%= ENV['DB_USERNAME'] %>
+  host: <%= ENV['DB_HOST'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
+  port: <%= ENV['DB_PORT'] %>
+<% end %>
+

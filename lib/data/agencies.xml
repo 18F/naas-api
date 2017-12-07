@@ -1,0 +1,3684 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><agencies>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE MANAGEMENT ENGINEERING AGENCY</agency_subelement>
+    <employment>1</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE INSPECTION AND SAFETY CENTER</agency_subelement>
+    <employment>34</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE OPERATIONAL TEST AND EVALUATION CENTER</agency_subelement>
+    <employment>153</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE COMMUNICATIONS AGENCY</agency_subelement>
+    <employment>244</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE INTELLIGENCE SERVICE</agency_subelement>
+    <employment>47</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE AUDIT AGENCY</agency_subelement>
+    <employment>736</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE OFFICE OF SPECIAL INVESTIGATIONS</agency_subelement>
+    <employment>605</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE OFFICE OF SECURITY POLICE</agency_subelement>
+    <employment>36</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE PERSONNEL CENTER</agency_subelement>
+    <employment>817</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. AIR FORCE ACADEMY</agency_subelement>
+    <employment>1406</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. AIR FORCES, EUROPE</agency_subelement>
+    <employment>1741</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR EDUCATION AND TRAINING COMMAND</agency_subelement>
+    <employment>14887</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>HEADQUARTERS, AIR FORCE RESERVE</agency_subelement>
+    <employment>12969</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>IMMEDIATE OFFICE, HEADQUARTERS, USAF</agency_subelement>
+    <employment>965</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>PACIFIC AIR FORCES</agency_subelement>
+    <employment>3228</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE INTELLIGENCE, SURVEILLANCE, &amp; RECONNAISSANCE AGENCY</agency_subelement>
+    <employment>1832</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE SPECIAL OPERATIONS COMMAND</agency_subelement>
+    <employment>1548</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE MANPOWER AGENCY</agency_subelement>
+    <employment>294</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE PUBLIC AFFAIRS AGENCY</agency_subelement>
+    <employment>20</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>HQ USAF AND SUPPORT ELEMENTS</agency_subelement>
+    <employment>16</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE C2 &amp; INTELLIGENCE, SURVEILLANCE &amp; RECONNAISSANCE</agency_subelement>
+    <employment>50</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR COMBAT COMMAND</agency_subelement>
+    <employment>10441</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE LOGISTICS MANAGEMENT AGENCY</agency_subelement>
+    <employment>16</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR MOBILITY COMMAND</agency_subelement>
+    <employment>9037</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE MATERIEL COMMAND</agency_subelement>
+    <employment>59691</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE REAL PROPERTY AGENCY</agency_subelement>
+    <employment>90</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>HQ AF FLIGHT STANDARDS AGENCY</agency_subelement>
+    <employment>49</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE ELEMENTS, U.S. AFRICA COMMAND</agency_subelement>
+    <employment>1</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>SPACE COMMAND</agency_subelement>
+    <employment>7422</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE ENGINEERING AND SERVICES CENTER</agency_subelement>
+    <employment>124</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE CIVILIAN CAREER TRAINING</agency_subelement>
+    <employment>1852</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE AGENCY FOR MODELING/SIMULATION</agency_subelement>
+    <employment>10</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE NUCLEAR WEAPONS AGENCY</agency_subelement>
+    <employment>1</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>HQ USAF DIRECT SUPPORT ELEMENT</agency_subelement>
+    <employment>481</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AF</agency_subelement>
+    <employment>423</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE COST CENTER</agency_subelement>
+    <employment>113</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE PERSONNEL OPERATIONS AGENCY</agency_subelement>
+    <employment>41</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE LEGAL SERVICES CENTER</agency_subelement>
+    <employment>246</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE MEDICAL SERVICES CENTER</agency_subelement>
+    <employment>59</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE SERVICE INFORMATION AND NEWS CENTER</agency_subelement>
+    <employment>4</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR NATIONAL GUARD SUPPORT CENTER</agency_subelement>
+    <employment>575</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. AIR FORCE HISTORICAL RESEARCH CENTER</agency_subelement>
+    <employment>57</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE TECHNICAL APPLICATIONS CENTER</agency_subelement>
+    <employment>300</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE REVIEW BOARDS OFFICE</agency_subelement>
+    <employment>53</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE CENTER FOR STUDIES AND ANALYSES</agency_subelement>
+    <employment>1</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR WEATHER SERVICE</agency_subelement>
+    <employment>216</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE PROGRAM EXECUTIVE OFFICE</agency_subelement>
+    <employment>19</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>HQ NORAD</agency_subelement>
+    <employment>57</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE SUPPLY CENTER</agency_subelement>
+    <employment>73</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE MORALE, WELFARE AND RECREATION CENTER</agency_subelement>
+    <employment>164</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>11TH WING</agency_subelement>
+    <employment>1</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>HQ AIR FORCE MEDICAL OPERATIONS AGENCY</agency_subelement>
+    <employment>120</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR NATIONAL GUARD UNITS (MOBILIZATION) (TITLE 5)</agency_subelement>
+    <employment>676</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE ELEMENTS, U.S. CENTRAL COMMAND</agency_subelement>
+    <employment>219</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE ELEMENTS, U.S. SPECIAL OPERATIONS COMMAND</agency_subelement>
+    <employment>829</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE ELEMENTS, U.S. ATLANTIC COMMAND</agency_subelement>
+    <employment>145</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE ELEMENTS, U.S. STRATEGIC COMMAND</agency_subelement>
+    <employment>1062</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE ELEMENTS, U.S. TRANSPORTATION COMMAND</agency_subelement>
+    <employment>470</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE ELEMENTS, OTHER THAN EUROPE</agency_subelement>
+    <employment>473</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE CENTER FOR ENVIRONMENTAL EXCELLENCE</agency_subelement>
+    <employment>487</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE ELEMENTS, U.S. NORTHERN COMMAND</agency_subelement>
+    <employment>539</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE DISTRICT OF WASHINGTON</agency_subelement>
+    <employment>1353</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE FINANCIAL SERVICES</agency_subelement>
+    <employment>69</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE PETROLEUM AGENCY</agency_subelement>
+    <employment>45</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR FORCE GLOBAL STRIKE COMMAND</agency_subelement>
+    <employment>649</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>AIR NATIONAL GUARD UNITS (TITLE 32)</agency_subelement>
+    <employment>22575</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE AIR FORCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. SPECIAL OPERATIONS COMMAND (ANG, TITLE 32)</agency_subelement>
+    <employment>285</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>UNSPECIFIED</agency_subelement>
+    <employment>3</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY CENTRAL</agency_subelement>
+    <employment>297</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY NORTH</agency_subelement>
+    <employment>328</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U. S. ARMY ACCESSION COMMAND</agency_subelement>
+    <employment>407</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY CONTRACTING AGENCY</agency_subelement>
+    <employment>6</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY ACQUISITION SUPPORT CENTER</agency_subelement>
+    <employment>4570</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U. S. MILITARY ENTRANCE PROCESSING COMMAND</agency_subelement>
+    <employment>267</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY INTELLIGENCE AND SECURITY COMMAND</agency_subelement>
+    <employment>2364</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY TEST AND EVALUATION COMMAND</agency_subelement>
+    <employment>4473</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY INSTALLATION MANAGEMENT COMMAND</agency_subelement>
+    <employment>37287</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY CRIMINAL INVESTIGATION COMMAND</agency_subelement>
+    <employment>709</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY CORPS OF ENGINEERS</agency_subelement>
+    <employment>36797</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>IMMEDIATE OFFICE OF THE CHIEF OF STAFF OF THE ARMY</agency_subelement>
+    <employment>1715</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>IMMEDIATE OFFICE OF THE COMMANDER</agency_subelement>
+    <employment>1152</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>21ST THEATER ARMY AREA COMMAND</agency_subelement>
+    <employment>340</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY V CORPS</agency_subelement>
+    <employment>31</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>SEVENTH ARMY TRAINING COMMAND</agency_subelement>
+    <employment>308</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY FORCES COMMAND</agency_subelement>
+    <employment>3493</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY NETWORK ENTERPRISE TECHNOLOGY COMMAND/9TH ARMY SIGNAL COMMAND</agency_subelement>
+    <employment>4105</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>OFFICE OF THE CHIEF OF THE NATIONAL GUARD BUREAU</agency_subelement>
+    <employment>413</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY RESERVE COMMAND</agency_subelement>
+    <employment>8485</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY ELEMENT SHAPE</agency_subelement>
+    <employment>177</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>JOINT ACTIVITIES</agency_subelement>
+    <employment>1997</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. MILITARY ACADEMY</agency_subelement>
+    <employment>764</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY MEDICAL COMMAND</agency_subelement>
+    <employment>40154</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY MILITARY DISTRICT OF WASHINGTON</agency_subelement>
+    <employment>419</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>ARMY NATIONAL GUARD UNITS (TITLE 32)</agency_subelement>
+    <employment>30451</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY, PACIFIC</agency_subelement>
+    <employment>803</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>EIGHTH U.S. ARMY</agency_subelement>
+    <employment>664</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>OFFICE OF THE SECRETARY OF THE ARMY</agency_subelement>
+    <employment>1091</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>FIELD OPERATING OFFICES OF THE OFFICE OF THE SECRETARY OF THE ARMY</agency_subelement>
+    <employment>3178</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U. S. ARMY SPACE AND MISSILE DEFENSE COMMAND/U. S. ARMY FORCES STRATEGIC COMMAND</agency_subelement>
+    <employment>920</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>HQDA FIELD OPERATING AGENCIES AND STAFF SUPPORT AGENCIES AND STAFF SUPPORT AGENCIES</agency_subelement>
+    <employment>6730</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>MISCELLANEOUS FIELD OPERATING AGENCIES</agency_subelement>
+    <employment>43</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>JOINT SERVICES AND ACTIVITIES SUPPORTED BY THE OFFICE, SECRETARY OF THE ARMY</agency_subelement>
+    <employment>1293</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY SOUTH</agency_subelement>
+    <employment>287</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. SPECIAL OPERATIONS COMMAND (ARMY)</agency_subelement>
+    <employment>1691</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY ACCESSIONS COMMAND</agency_subelement>
+    <employment>2561</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY TRAINING AND DOCTRINE COMMAND</agency_subelement>
+    <employment>13327</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. MILITARY ENTRANCE PROCESSING COMMAND</agency_subelement>
+    <employment>1905</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY WAR COLLEGE</agency_subelement>
+    <employment>383</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>HEADQUARTERS, AMC</agency_subelement>
+    <employment>700</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>TRAINING ACTIVITIES, AMC</agency_subelement>
+    <employment>180</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY AVIATION AND MISSILE COMMAND</agency_subelement>
+    <employment>9085</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY TANK</agency_subelement>
+    <employment>15444</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY COMMUNICATIONS ELECTRONICS COMMAND</agency_subelement>
+    <employment>8482</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY CHEMICAL MATERIALS AGENCY</agency_subelement>
+    <employment>1432</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY SUSTAINMENT COMMAND</agency_subelement>
+    <employment>1203</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U. S. ARMY CONTRACTING COMMAND</agency_subelement>
+    <employment>5098</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>MATERIEL ACQUISITION ACTIVITIES</agency_subelement>
+    <employment>123</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY SECURITY ASSISTANCE COMMAND</agency_subelement>
+    <employment>460</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY JOINT MUNITIONS COMMAND</agency_subelement>
+    <employment>6519</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY RESEARCH, DEVELOPMENT AND ENGINEERING COMMAND</agency_subelement>
+    <employment>15137</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ARMY MILITARY SURFACE DEPLOYMENT AND DISTRIBUTION COMMAND</agency_subelement>
+    <employment>1312</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE ARMY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>MATERIEL READINESS ACTIVITIES</agency_subelement>
+    <employment>339</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>OFFICE OF THE SECRETARY OF DEFENSE</agency_subelement>
+    <employment>1830</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>ORGANIZATION OF THE JOINT CHIEFS OF STAFF</agency_subelement>
+    <employment>224</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>DEFENSE INFORMATION SYSTEMS AGENCY</agency_subelement>
+    <employment>5611</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>DEFENSE SECURITY COOPERATION AGENCY</agency_subelement>
+    <employment>542</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>DEFENSE LOGISTICS AGENCY</agency_subelement>
+    <employment>25105</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. COURT OF APPEALS FOR THE ARMED FORCES</agency_subelement>
+    <employment>60</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>DEFENSE CONTRACT AUDIT AGENCY</agency_subelement>
+    <employment>4332</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>DEFENSE SECURITY SERVICE</agency_subelement>
+    <employment>754</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>DEFENSE ADVANCED RESEARCH PROJECTS AGENCY</agency_subelement>
+    <employment>159</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>DEPARTMENT OF DEFENSE EDUCATION ACTIVITY</agency_subelement>
+    <employment>15629</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>WASHINGTON HEADQUARTERS SERVICES</agency_subelement>
+    <employment>1481</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>OFFICE OF ECONOMIC ADJUSTMENT</agency_subelement>
+    <employment>38</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>DEFENSE LEGAL SERVICES AGENCY</agency_subelement>
+    <employment>256</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>OFFICE OF THE INSPECTOR GENERAL</agency_subelement>
+    <employment>1606</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>MISSILE DEFENSE AGENCY</agency_subelement>
+    <employment>1520</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>DEFENSE TECHNOLOGY SECURITY ADMINISTRATION</agency_subelement>
+    <employment>130</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>DEFENSE COMMISSARY AGENCY</agency_subelement>
+    <employment>15793</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>DEFENSE FINANCE AND ACCOUNTING SERVICE</agency_subelement>
+    <employment>12247</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>DEFENSE HUMAN RESOURCES ACTIVITY</agency_subelement>
+    <employment>1081</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>DEFENSE PRISONER OF WAR/MISSING PERSONNEL OFFICE</agency_subelement>
+    <employment>64</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>TRICARE MANAGEMENT ACTIVITY</agency_subelement>
+    <employment>1464</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>DEFENSE THREAT REDUCTION AGENCY</agency_subelement>
+    <employment>1230</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>DEFENSE CONTRACT MANAGEMENT AGENCY</agency_subelement>
+    <employment>10160</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>PENTAGON FORCE PROTECTION AGENCY</agency_subelement>
+    <employment>1163</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>DEPARTMENT OF DEFENSE TEST RESOURCE MANAGEMENT CENTER</agency_subelement>
+    <employment>27</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>NATIONAL DEFENSE UNIVERSITY</agency_subelement>
+    <employment>572</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>DEFENSE TECHNICAL INFORMATION CENTER</agency_subelement>
+    <employment>286</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>BUSINESS TRANSFORMATION AGENCY</agency_subelement>
+    <employment>329</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF DEFENSE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>DEFENSE MEDIA ACTIVITY</agency_subelement>
+    <employment>538</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>IMMEDIATE OFFICE OF THE CHIEF OF NAVAL OPERATIONS</agency_subelement>
+    <employment>4976</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>ASSISTANT FOR ADMINISTRATION, UNDER SECRETARY OF THE NAVY</agency_subelement>
+    <employment>4947</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>OFFICE OF NAVAL RESEARCH</agency_subelement>
+    <employment>2965</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>NAVAL INTELLIGENCE COMMAND</agency_subelement>
+    <employment>1720</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>NAVAL MEDICAL COMMAND</agency_subelement>
+    <employment>12637</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>NAVAL AIR SYSTEMS COMMAND</agency_subelement>
+    <employment>23770</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>BUREAU OF NAVAL PERSONNEL</agency_subelement>
+    <employment>1700</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>NAVAL SUPPLY SYSTEMS COMMAND</agency_subelement>
+    <employment>6690</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>NAVAL SEA SYSTEMS COMMAND</agency_subelement>
+    <employment>25011</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>NAVAL FACILITIES ENGINEERING COMMAND</agency_subelement>
+    <employment>15453</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. MARINE CORPS</agency_subelement>
+    <employment>19199</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>STRATEGIC SYSTEMS PROGRAMS OFFICE</agency_subelement>
+    <employment>960</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>MILITARY SEALIFT COMMAND</agency_subelement>
+    <employment>6084</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>SPACE AND NAVAL WARFARE SYSTEMS COMMAND</agency_subelement>
+    <employment>8128</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>NAVY SYSTEMS MANAGEMENT ACTIVITY</agency_subelement>
+    <employment>560</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>COMMANDER, NAVY INSTALLATIONS</agency_subelement>
+    <employment>14259</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. ATLANTIC FLEET, COMMANDER IN CHIEF</agency_subelement>
+    <employment>18652</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>U.S. PACIFIC FLEET, COMMANDER IN CHIEF</agency_subelement>
+    <employment>17231</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>NAVAL RESERVE FORCE</agency_subelement>
+    <employment>467</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>NAVAL SPECIAL WARFARE COMMAND</agency_subelement>
+    <employment>1058</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE NAVY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate>D+-DEPARTMENT OF DEFENSE</dod_aggregate>
+    <agency_subelement>NAVAL EDUCATION AND TRAINING COMMAND</agency_subelement>
+    <employment>4287</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SECRETARY OF AGRICULTURE</agency_subelement>
+    <employment>102</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>AGRICULTURAL MARKETING SERVICE</agency_subelement>
+    <employment>4404</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>AGRICULTURAL RESEARCH SERVICE</agency_subelement>
+    <employment>8903</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>RURAL HOUSING SERVICE</agency_subelement>
+    <employment>5647</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>RISK MANAGEMENT AGENCY</agency_subelement>
+    <employment>508</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FOREIGN AGRICULTURAL SERVICE</agency_subelement>
+    <employment>897</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FOREST SERVICE</agency_subelement>
+    <employment>31927</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF COMMUNICATIONS</agency_subelement>
+    <employment>95</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE GENERAL COUNSEL</agency_subelement>
+    <employment>319</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>RURAL UTILITIES SERVICE</agency_subelement>
+    <employment>367</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATURAL RESOURCES CONSERVATION SERVICE</agency_subelement>
+    <employment>11671</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ECONOMIC RESEARCH SERVICE</agency_subelement>
+    <employment>388</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL AGRICULTURAL STATISTICS SERVICE</agency_subelement>
+    <employment>1084</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL INSTITUTE OF FOOD AND AGRICULTURE</agency_subelement>
+    <employment>395</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE INSPECTOR GENERAL</agency_subelement>
+    <employment>586</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FOOD AND NUTRITION SERVICE</agency_subelement>
+    <employment>1346</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>RURAL BUSINESS</agency_subelement>
+    <employment>88</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ANIMAL AND PLANT HEALTH INSPECTION SERVICE</agency_subelement>
+    <employment>8635</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>GRAIN INSPECTION, PACKERS AND STOCKYARDS ADMINISTRATION</agency_subelement>
+    <employment>806</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FOOD SAFETY AND INSPECTION SERVICE</agency_subelement>
+    <employment>10009</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE CHIEF ECONOMIST</agency_subelement>
+    <employment>56</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF BUDGET AND PROGRAM ANALYSIS</agency_subelement>
+    <employment>51</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE CHIEF FINANCIAL OFFICER</agency_subelement>
+    <employment>1222</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>CIVIL RIGHTS</agency_subelement>
+    <employment>177</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DEPARTMENTAL ADMINISTRATION</agency_subelement>
+    <employment>503</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE EXECUTIVE SECRETARIAT</agency_subelement>
+    <employment>21</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FARM SERVICE AGENCY</agency_subelement>
+    <employment>5074</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>HOMELAND SECURITY STAFF</agency_subelement>
+    <employment>1</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE CHIEF INFORMATION OFFICER</agency_subelement>
+    <employment>962</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF AGRICULTURE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL APPEALS DIVISION</agency_subelement>
+    <employment>96</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF COMMERCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SECRETARY</agency_subelement>
+    <employment>871</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF COMMERCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ECONOMIC DEVELOPMENT ADMINISTRATION</agency_subelement>
+    <employment>202</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF COMMERCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>BUREAU OF ECONOMIC ANALYSIS</agency_subelement>
+    <employment>533</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF COMMERCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION</agency_subelement>
+    <employment>12909</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF COMMERCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>INTERNATIONAL TRADE ADMINISTRATION</agency_subelement>
+    <employment>1549</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF COMMERCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>PATENT AND TRADEMARK OFFICE</agency_subelement>
+    <employment>9608</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF COMMERCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY</agency_subelement>
+    <employment>3151</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF COMMERCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>MINORITY BUSINESS DEVELOPMENT AGENCY</agency_subelement>
+    <employment>85</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF COMMERCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL TELECOMMUNICATIONS AND INFORMATION ADMINISTRATION</agency_subelement>
+    <employment>307</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF COMMERCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL TECHNICAL INFORMATION SERVICE</agency_subelement>
+    <employment>122</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF COMMERCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>BUREAU OF THE CENSUS</agency_subelement>
+    <employment>20987</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF COMMERCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE INSPECTOR GENERAL</agency_subelement>
+    <employment>153</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF COMMERCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ECONOMICS AND STATISTICS ADMINISTRATION</agency_subelement>
+    <employment>45</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF COMMERCE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>BUREAU OF INDUSTRY AND SECURITY</agency_subelement>
+    <employment>324</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF JUSTICE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>UNSPECIFIED</agency_subelement>
+    <employment>1</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF JUSTICE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICES, BOARDS AND DIVISIONS</agency_subelement>
+    <employment>7357</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF JUSTICE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL BUREAU OF INVESTIGATION</agency_subelement>
+    <employment>33486</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF JUSTICE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>BUREAU OF PRISONS/FEDERAL PRISON SYSTEM</agency_subelement>
+    <employment>37097</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF JUSTICE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DRUG ENFORCEMENT ADMINISTRATION</agency_subelement>
+    <employment>9623</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF JUSTICE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF JUSTICE PROGRAMS</agency_subelement>
+    <employment>684</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF JUSTICE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>U.S. MARSHALS SERVICE</agency_subelement>
+    <employment>5048</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF JUSTICE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>EXECUTIVE OFFICE FOR U.S. ATTORNEYS AND THE OFFICES OF THE U.S. ATTORNEYS</agency_subelement>
+    <employment>12157</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF JUSTICE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE INSPECTOR GENERAL</agency_subelement>
+    <employment>452</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF JUSTICE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>U.S. TRUSTEE PROGRAM</agency_subelement>
+    <employment>1274</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF JUSTICE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>EXECUTIVE OFFICE FOR IMMIGRATION REVIEW</agency_subelement>
+    <employment>1350</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF JUSTICE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>COMMUNITY RELATIONS SERVICE</agency_subelement>
+    <employment>46</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF JUSTICE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>BUREAU OF ALCOHOL, TOBACCO, FIREARMS, AND EXPLOSIVES</agency_subelement>
+    <employment>5119</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF LABOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SECRETARY OF LABOR</agency_subelement>
+    <employment>485</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF LABOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE ASSISTANT SECRETARY FOR ADMINISTRATION AND MANAGEMENT</agency_subelement>
+    <employment>701</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF LABOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>BUREAU OF INTERNATIONAL LABOR AFFAIRS</agency_subelement>
+    <employment>90</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF LABOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF CONGRESSIONAL AND INTERGOVERNMENTAL AFFAIRS</agency_subelement>
+    <employment>23</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF LABOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE CHIEF FINANCIAL OFFICER</agency_subelement>
+    <employment>90</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF LABOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF DISABILITY EMPLOYMENT POLICY</agency_subelement>
+    <employment>48</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF LABOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>EMPLOYMENT STANDARDS ADMINISTRATION</agency_subelement>
+    <employment>4221</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF LABOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>EMPLOYMENT AND TRAINING ADMINISTRATION</agency_subelement>
+    <employment>1106</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF LABOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE INSPECTOR GENERAL</agency_subelement>
+    <employment>432</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF LABOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>BUREAU OF LABOR STATISTICS</agency_subelement>
+    <employment>2481</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF LABOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>MINE SAFETY AND HEALTH ADMINISTRATION</agency_subelement>
+    <employment>2400</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF LABOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF PUBLIC AFFAIRS</agency_subelement>
+    <employment>57</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF LABOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE ASSISTANT SECRETARY FOR POLICY</agency_subelement>
+    <employment>37</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF LABOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>EMPLOYEE BENEFITS SECURITY ADMINISTRATION</agency_subelement>
+    <employment>954</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF LABOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OCCUPATIONAL SAFETY AND HEALTH ADMINISTRATION</agency_subelement>
+    <employment>2165</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF LABOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SOLICITOR</agency_subelement>
+    <employment>673</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF LABOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>VETERANS EMPLOYMENT AND TRAINING SERVICES</agency_subelement>
+    <employment>231</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF LABOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>WOMEN'S BUREAU</agency_subelement>
+    <employment>52</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF ENERGY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DEPARTMENT OF ENERGY</agency_subelement>
+    <employment>16453</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>IMMEDIATE OFFICE OF THE SECRETARY OF EDUCATION</agency_subelement>
+    <employment>134</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE DUTY SECRETARY OF EDUCATION</agency_subelement>
+    <employment>14</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE FOR CIVIL RIGHTS</agency_subelement>
+    <employment>593</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF PLANNING, EVALUATION AND POLICY DEVELOPMENT</agency_subelement>
+    <employment>139</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE UNDER SECRETARY</agency_subelement>
+    <employment>8</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF INSPECTOR GENERAL</agency_subelement>
+    <employment>298</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE GENERAL COUNSEL</agency_subelement>
+    <employment>111</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF SPECIAL EDUCATION AND REHABILITATIVE SERVICES</agency_subelement>
+    <employment>279</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE CHIEF INFORMATION OFFICER</agency_subelement>
+    <employment>140</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF LEGISLATION AND CONGRESSIONAL AFFAIRS</agency_subelement>
+    <employment>22</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE CHIEF FINANCIAL OFFICER</agency_subelement>
+    <employment>186</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF MANAGEMENT</agency_subelement>
+    <employment>198</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL STUDENT AID</agency_subelement>
+    <employment>1003</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF COMMUNICATIONS AND OUTREACH</agency_subelement>
+    <employment>111</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF POSTSECONDARY EDUCATION</agency_subelement>
+    <employment>236</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF SAFE AND DRUG</agency_subelement>
+    <employment>53</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>INSTITUTE OF EDUCATION SCIENCES</agency_subelement>
+    <employment>191</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF ELEMENTARY AND SECONDARY EDUCATION</agency_subelement>
+    <employment>265</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF ENGLISH LANGUAGE ACQUISITION</agency_subelement>
+    <employment>20</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF INNOVATION AND IMPROVEMENT</agency_subelement>
+    <employment>104</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF VOCATIONAL AND ADULT EDUCATION</agency_subelement>
+    <employment>90</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL INSTITUTE FOR LITERACY</agency_subelement>
+    <employment>22</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ADVISORY COUNCILS AND COMMITTEES</agency_subelement>
+    <employment>23</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF EDUCATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL ASSESSMENT GOVERNING BOARD</agency_subelement>
+    <employment>33</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HEALTH AND HUMAN SERVICES</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SECRETARY OF HEALTH AND HUMAN SERVICES</agency_subelement>
+    <employment>14040</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HEALTH AND HUMAN SERVICES</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>PROGRAM SUPPORT CENTER</agency_subelement>
+    <employment>1163</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HEALTH AND HUMAN SERVICES</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ADMINISTRATION ON AGING</agency_subelement>
+    <employment>94</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HEALTH AND HUMAN SERVICES</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE ASSISTANT SECRETARY FOR HEALTH</agency_subelement>
+    <employment>7</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HEALTH AND HUMAN SERVICES</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES ADMINISTRATION</agency_subelement>
+    <employment>520</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HEALTH AND HUMAN SERVICES</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>AGENCY FOR HEALTHCARE RESEARCH AND QUALITY</agency_subelement>
+    <employment>310</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HEALTH AND HUMAN SERVICES</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>HEALTH RESOURCES AND SERVICES ADMINISTRATION</agency_subelement>
+    <employment>1526</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HEALTH AND HUMAN SERVICES</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>AGENCY FOR TOXIC SUBSTANCES AND DISEASE REGISTRY</agency_subelement>
+    <employment>173</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HEALTH AND HUMAN SERVICES</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FOOD AND DRUG ADMINISTRATION</agency_subelement>
+    <employment>13844</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HEALTH AND HUMAN SERVICES</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>INDIAN HEALTH SERVICE</agency_subelement>
+    <employment>14000</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HEALTH AND HUMAN SERVICES</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL INSTITUTES OF HEALTH</agency_subelement>
+    <employment>19303</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HEALTH AND HUMAN SERVICES</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>CENTERS FOR DISEASE CONTROL AND PREVENTION</agency_subelement>
+    <employment>9417</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HEALTH AND HUMAN SERVICES</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>CENTERS FOR MEDICARE &amp; MEDICAID SERVICES</agency_subelement>
+    <employment>4484</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HEALTH AND HUMAN SERVICES</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ADMINISTRATION FOR CHILDREN AND FAMILIES</agency_subelement>
+    <employment>1318</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOMELAND SECURITY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DHS HEADQUARTERS</agency_subelement>
+    <employment>2428</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOMELAND SECURITY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>BUREAU OF CITIZENSHIP AND IMMIGRATION SERVICES</agency_subelement>
+    <employment>10560</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOMELAND SECURITY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>U.S. COAST GUARD</agency_subelement>
+    <employment>8146</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOMELAND SECURITY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>U.S. SECRET SERVICE</agency_subelement>
+    <employment>6802</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOMELAND SECURITY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE INSPECTOR GENERAL</agency_subelement>
+    <employment>710</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOMELAND SECURITY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>BUREAU OF IMMIGRATION AND CUSTOMS ENFORCEMENT</agency_subelement>
+    <employment>19376</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOMELAND SECURITY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>TRANSPORTATION SECURITY ADMINISTRATION</agency_subelement>
+    <employment>59650</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOMELAND SECURITY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>BUREAU OF CUSTOMS AND BORDER PROTECTION</agency_subelement>
+    <employment>58027</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOMELAND SECURITY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL LAW ENFORCEMENT TRAINING CENTER</agency_subelement>
+    <employment>1197</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOMELAND SECURITY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL EMERGENCY MANAGEMENT AGENCY</agency_subelement>
+    <employment>16530</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOMELAND SECURITY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DOMESTIC NUCLEAR DETECTION OFFICE</agency_subelement>
+    <employment>2314</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOMELAND SECURITY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE UNDER SECRETARY FOR SCIENCE AND TECHNOLOGY</agency_subelement>
+    <employment>396</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SENIOR COORDINATOR FOR NEW ENGLAND</agency_subelement>
+    <employment>236</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SENIOR COORDINATOR FOR NEW YORK/NEW JERSEY</agency_subelement>
+    <employment>402</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SENIOR COORDINATOR FOR MID</agency_subelement>
+    <employment>635</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SENIOR COORDINATOR FOR SOUTHEAST/CARIBBEAN</agency_subelement>
+    <employment>1025</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SENIOR COORDINATOR FOR MIDWEST</agency_subelement>
+    <employment>680</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SENIOR COORDINATOR FOR SOUTHWEST</agency_subelement>
+    <employment>585</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SENIOR COORDINATOR FOR GREAT PLAINS</agency_subelement>
+    <employment>210</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SENIOR COORDINATOR FOR ROCKY MOUNTAINS</agency_subelement>
+    <employment>342</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SENIOR COORDINATOR FOR PACIFIC/HAWAII</agency_subelement>
+    <employment>627</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SENIOR COORDINATOR FOR NORTHWEST/ALASKA</agency_subelement>
+    <employment>211</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SECRETARY OF HOUSING AND URBAN DEVELOPMENT</agency_subelement>
+    <employment>35</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ASSISTANT SECRETARY FOR ADMINISTRATION</agency_subelement>
+    <employment>628</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF GENERAL COUNSEL</agency_subelement>
+    <employment>341</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ASSISTANT SECRETARY FOR COMMUNITY PLANNING AND DEVELOPMENT</agency_subelement>
+    <employment>289</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ASSISTANT SECRETARY FOR FAIR HOUSING AND EQUAL OPPORTUNITY</agency_subelement>
+    <employment>121</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE CHIEF FINANCIAL OFFICER</agency_subelement>
+    <employment>175</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF INSPECTOR GENERAL</agency_subelement>
+    <employment>669</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF DEPARTMENTAL OPERATIONS AND COORDINATION</agency_subelement>
+    <employment>82</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ASSISTANT SECRETARY FOR CONGRESSIONAL AND INTERGOVERNMENTAL RELATIONS</agency_subelement>
+    <employment>16</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>CENTER FOR FAITH</agency_subelement>
+    <employment>12</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF FIELD POLICY AND MANAGEMENT</agency_subelement>
+    <employment>24</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF HEALTHY HOMES AND LEAD HAZARD CONTROL</agency_subelement>
+    <employment>61</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ASSISTANT SECRETARY FOR HOUSING</agency_subelement>
+    <employment>987</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE CHIEF PROCUREMENT OFFICER</agency_subelement>
+    <employment>120</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ASSISTANT SECRETARY FOR PUBLIC AND INDIAN HOUSING</agency_subelement>
+    <employment>694</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE CHIEF INFORMATION OFFICER</agency_subelement>
+    <employment>267</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ASSISTANT SECRETARY FOR POLICY DEVELOPMENT AND RESEARCH</agency_subelement>
+    <employment>106</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>GOVERNMENT NATIONAL MORTGAGE ASSOCIATION (GINNIE MAE)</agency_subelement>
+    <employment>60</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF DEPARTMENTAL EQUAL EMPLOYMENT OPPORTUNITY</agency_subelement>
+    <employment>26</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ASSISTANT SECRETARY FOR PUBLIC AFFAIRS</agency_subelement>
+    <employment>19</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE INTERIOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SECRETARY OF THE INTERIOR</agency_subelement>
+    <employment>3088</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE INTERIOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>BUREAU OF LAND MANAGEMENT</agency_subelement>
+    <employment>10320</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE INTERIOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>INDIAN AFFAIRS</agency_subelement>
+    <employment>9231</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE INTERIOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>BUREAU OF RECLAMATION</agency_subelement>
+    <employment>5622</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE INTERIOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>GEOLOGICAL SURVEY</agency_subelement>
+    <employment>8961</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE INTERIOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL PARK SERVICE</agency_subelement>
+    <employment>21805</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE INTERIOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>U.S. FISH AND WILDLIFE SERVICE</agency_subelement>
+    <employment>9526</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE INTERIOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SOLICITOR</agency_subelement>
+    <employment>426</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE INTERIOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF SURFACE MINING, RECLAMATION AND ENFORCEMENT</agency_subelement>
+    <employment>529</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE INTERIOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>MINERAL MANAGEMENT SERVICE</agency_subelement>
+    <employment>1709</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE INTERIOR</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE INSPECTOR GENERAL</agency_subelement>
+    <employment>293</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF STATE</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DEPARTMENT OF STATE</agency_subelement>
+    <employment>11622</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF TRANSPORTATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SECRETARY OF TRANSPORTATION</agency_subelement>
+    <employment>717</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF TRANSPORTATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL AVIATION ADMINISTRATION</agency_subelement>
+    <employment>48505</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF TRANSPORTATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL HIGHWAY ADMINISTRATION</agency_subelement>
+    <employment>2941</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF TRANSPORTATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL RAILROAD ADMINISTRATION</agency_subelement>
+    <employment>840</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF TRANSPORTATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>SAINT LAWRENCE SEAWAY DEVELOPMENT CORPORATION</agency_subelement>
+    <employment>133</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF TRANSPORTATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL TRANSIT ADMINISTRATION</agency_subelement>
+    <employment>551</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF TRANSPORTATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL HIGHWAY TRAFFIC SAFETY ADMINISTRATION</agency_subelement>
+    <employment>620</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF TRANSPORTATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>RESEARCH AND INNOVATIVE TECHNONOGY ADMINSTRATION</agency_subelement>
+    <employment>697</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF TRANSPORTATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF INSPECTOR GENERAL</agency_subelement>
+    <employment>441</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF TRANSPORTATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>MARITIME ADMINISTRATION</agency_subelement>
+    <employment>780</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF TRANSPORTATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>SURFACE TRANSPORTATION BOARD</agency_subelement>
+    <employment>154</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF TRANSPORTATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>PIPELINE AND HAZARDOUS MATERIALS SAFETY ADMINISTRATION</agency_subelement>
+    <employment>373</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF TRANSPORTATION</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL MOTOR CARRIER SAFETY ADMINISTRATION</agency_subelement>
+    <employment>1064</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE TREASURY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THRIFT SUPERVISION</agency_subelement>
+    <employment>1008</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE TREASURY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>SPECIAL INSPECTOR GENERAL FOR THE TROUBLED ASSETS RELIEF PROGRAM (TARP)</agency_subelement>
+    <employment>97</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE TREASURY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ALCOHOL AND TOBACCO TAX AND TRADE BUREAU</agency_subelement>
+    <employment>516</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE TREASURY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DEPARTMENTAL OFFICES</agency_subelement>
+    <employment>1810</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE TREASURY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>INTERNAL REVENUE SERVICE</agency_subelement>
+    <employment>93654</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE TREASURY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF INSPECTOR GENERAL</agency_subelement>
+    <employment>129</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE TREASURY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FINANCIAL MANAGEMENT SERVICE</agency_subelement>
+    <employment>1905</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE TREASURY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>BUREAU OF THE PUBLIC DEBT</agency_subelement>
+    <employment>1947</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE TREASURY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>U.S. MINT</agency_subelement>
+    <employment>1793</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE TREASURY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FINANCIAL CRIMES ENFORCEMENT NETWORK</agency_subelement>
+    <employment>340</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE TREASURY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>BUREAU OF ENGRAVING AND PRINTING</agency_subelement>
+    <employment>1957</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE TREASURY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE COMPTROLLER OF THE CURRENCY</agency_subelement>
+    <employment>3166</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF THE TREASURY</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE INSPECTOR GENERAL FOR TAX ADMINISTRATION</agency_subelement>
+    <employment>823</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>UNSPECIFIED</agency_subelement>
+    <employment>45</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE SECRETARY</agency_subelement>
+    <employment>81</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>BOARD OF VETERANS APPEALS</agency_subelement>
+    <employment>565</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>GENERAL COUNSEL</agency_subelement>
+    <employment>758</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>INSPECTOR GENERAL</agency_subelement>
+    <employment>542</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>IMMEDIATE OFFICE OF THE ASSISTANT SECRETARY FOR HUMAN RESOURCES AND ADMINISTRATION</agency_subelement>
+    <employment>11</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DEPUTY ASSISTANT SECRETARY FOR HUMAN RESOURCES MANAGEMENT AND LABOR RELATIONS</agency_subelement>
+    <employment>160</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DEPUTY ASSISTANT SECRETARY FOR EQUAL OPPORTUNITY</agency_subelement>
+    <employment>17</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DEPUTY ASSISTANT SECRETARY FOR ADMINISTRATION</agency_subelement>
+    <employment>100</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DEPUTY ASSISTANT SECRETARY FOR OFFICE OF RESOLUTION MANAGEMENT</agency_subelement>
+    <employment>244</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>IMMEDIATE OFFICE OF THE ASSISTANT SECRETARY FOR MANAGEMENT</agency_subelement>
+    <employment>8</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DEPUTY ASSISTANT SECRETARY FOR BUDGET</agency_subelement>
+    <employment>28</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DEPUTY ASSISTANT SECRETARY FOR FINANCE</agency_subelement>
+    <employment>594</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DEPUTY ASSISTANT SECRETARY FOR ACQUISITION AND MATERIEL MANAGEMENT</agency_subelement>
+    <employment>73</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>IMMEDIATE OFFICE OF THE ASSISTANT SECRETARY FOR INFORMATION AND TECHNOLOGY</agency_subelement>
+    <employment>1</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DEPUTY ASSISTANT SECRETARY FOR INFORMATION AND TECHNOLOGY</agency_subelement>
+    <employment>7170</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>IMMEDIATE OFFICE OF THE ASSISTANT SECRETARY FOR POLICY AND PLANNING</agency_subelement>
+    <employment>14</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DEPUTY ASSISTANT SECRETARY FOR PROGRAM AND DATA ANALYSIS</agency_subelement>
+    <employment>21</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DEPUTY ASSISTANT SECRETARY FOR PLANNING AND EVALUATION</agency_subelement>
+    <employment>24</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL CENTER FOR VETERAN ANALYSIS AND STATISTICS</agency_subelement>
+    <employment>6</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE ASSISTANT SECRETARY FOR PUBLIC AND INTERGOVERNMENTAL AFFAIRS</agency_subelement>
+    <employment>15</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DEPUTY ASSISTANCE SECRETARY FOR INTERGOVERNMENTAL AFFAIRS</agency_subelement>
+    <employment>8</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DEPUTY ASSISTANT SECRETARY FOR PUBLIC AFFAIRS</agency_subelement>
+    <employment>43</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>IMMEDIATE OFFICE OF THE ASSISTANT SECRETARY FOR CONGRESSIONAL AND LEGISLATIVE AFFAIRS</agency_subelement>
+    <employment>1</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DEPUTY ASSISTANT SECRETARY FOR CONGRESSIONAL AFFAIRS</agency_subelement>
+    <employment>33</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>VETERANS BENEFITS ADMINISTRATION</agency_subelement>
+    <employment>19389</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL CEMETERY ADMINISTRATION</agency_subelement>
+    <employment>1670</employment>
+  </agency>
+  <agency>
+    <name>DEPARTMENT OF VETERANS AFFAIRS</name>
+    <type>Cabinet Level Agencies</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>VETERANS HEALTH ADMINISTRATION</agency_subelement>
+    <employment>268381</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL CREDIT UNION ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL CREDIT UNION ADMINISTRATION</agency_subelement>
+    <employment>1009</employment>
+  </agency>
+  <agency>
+    <name>EQUAL EMPLOYMENT OPPORTUNITY COMMISSION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>EQUAL EMPLOYMENT OPPORTUNITY COMMISSION</agency_subelement>
+    <employment>2388</employment>
+  </agency>
+  <agency>
+    <name>ENVIRONMENTAL PROTECTION AGENCY</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ENVIRONMENTAL PROTECTION AGENCY</agency_subelement>
+    <employment>18448</employment>
+  </agency>
+  <agency>
+    <name>FEDERAL COMMUNICATIONS COMMISSION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL COMMUNICATIONS COMMISSION</agency_subelement>
+    <employment>1890</employment>
+  </agency>
+  <agency>
+    <name>FEDERAL DEPOSIT INSURANCE CORPORATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL DEPOSIT INSURANCE CORPORATION</agency_subelement>
+    <employment>6708</employment>
+  </agency>
+  <agency>
+    <name>COURT SERVICES AND OFFENDER SUPERVISION AGENCY FOR THE DISTRICT OF COLUMBIA</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE DIRECTOR</agency_subelement>
+    <employment>875</employment>
+  </agency>
+  <agency>
+    <name>COURT SERVICES AND OFFENDER SUPERVISION AGENCY FOR THE DISTRICT OF COLUMBIA</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>PRETRIAL SERVICES AGENCY</agency_subelement>
+    <employment>366</employment>
+  </agency>
+  <agency>
+    <name>FEDERAL TRADE COMMISSION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL TRADE COMMISSION</agency_subelement>
+    <employment>1121</employment>
+  </agency>
+  <agency>
+    <name>GENERAL SERVICES ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>IMMEDIATE OFFICE OF THE ADMINISTRATOR</agency_subelement>
+    <employment>45</employment>
+  </agency>
+  <agency>
+    <name>GENERAL SERVICES ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>PUBLIC BUILDINGS SERVICE</agency_subelement>
+    <employment>6814</employment>
+  </agency>
+  <agency>
+    <name>GENERAL SERVICES ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF CIVIL RIGHTS</agency_subelement>
+    <employment>11</employment>
+  </agency>
+  <agency>
+    <name>GENERAL SERVICES ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF SMALL BUSINESS UTILIZATION</agency_subelement>
+    <employment>10</employment>
+  </agency>
+  <agency>
+    <name>GENERAL SERVICES ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE CHIEF FINANCIAL OFFICER</agency_subelement>
+    <employment>550</employment>
+  </agency>
+  <agency>
+    <name>GENERAL SERVICES ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF GENERAL COUNSEL</agency_subelement>
+    <employment>142</employment>
+  </agency>
+  <agency>
+    <name>GENERAL SERVICES ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>GSA BOARD OF CONTRACT APPEALS</agency_subelement>
+    <employment>35</employment>
+  </agency>
+  <agency>
+    <name>GENERAL SERVICES ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE CHIEF HUMAN CAPITAL OFFICER</agency_subelement>
+    <employment>229</employment>
+  </agency>
+  <agency>
+    <name>GENERAL SERVICES ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF INSPECTOR GENERAL</agency_subelement>
+    <employment>324</employment>
+  </agency>
+  <agency>
+    <name>GENERAL SERVICES ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE CHIEF ACQUISITION OFFICER</agency_subelement>
+    <employment>67</employment>
+  </agency>
+  <agency>
+    <name>GENERAL SERVICES ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF CITIZEN SERVICES AND COMMUNICATIONS</agency_subelement>
+    <employment>136</employment>
+  </agency>
+  <agency>
+    <name>GENERAL SERVICES ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF CONGRESSIONAL AND INTERGOVERNMENTAL AFFAIRS</agency_subelement>
+    <employment>9</employment>
+  </agency>
+  <agency>
+    <name>GENERAL SERVICES ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICES OF THE REGIONAL ADMINISTRATORS</agency_subelement>
+    <employment>157</employment>
+  </agency>
+  <agency>
+    <name>GENERAL SERVICES ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF GOVERNMENTWIDE POLICY</agency_subelement>
+    <employment>147</employment>
+  </agency>
+  <agency>
+    <name>GENERAL SERVICES ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE CHIEF INFORMATION OFFICER</agency_subelement>
+    <employment>219</employment>
+  </agency>
+  <agency>
+    <name>GENERAL SERVICES ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL ACQUISITION SERVICE</agency_subelement>
+    <employment>3771</employment>
+  </agency>
+  <agency>
+    <name>GENERAL SERVICES ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF EMERGENCY RESPONSE AND RECOVERY</agency_subelement>
+    <employment>16</employment>
+  </agency>
+  <agency>
+    <name>BROADCASTING BOARD OF GOVERNORS</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>BROADCASTING BOARD OF GOVERNORS</agency_subelement>
+    <employment>1754</employment>
+  </agency>
+  <agency>
+    <name>GOVERNMENT PRINTING OFFICE</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>GOVERNMENT PRINTING OFFICE</agency_subelement>
+    <employment>2309</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL SCIENCE FOUNDATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL SCIENCE FOUNDATION</agency_subelement>
+    <employment>1504</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL LABOR RELATIONS BOARD</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL LABOR RELATIONS BOARD</agency_subelement>
+    <employment>1663</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL AERONAUTICS AND SPACE ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>HEADQUARTERS, NASA</agency_subelement>
+    <employment>1557</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL AERONAUTICS AND SPACE ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>AMES RESEARCH CENTER</agency_subelement>
+    <employment>1262</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL AERONAUTICS AND SPACE ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>JOHN GLENN RESEARCH CENTER AT LEWIS FIELD</agency_subelement>
+    <employment>1643</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL AERONAUTICS AND SPACE ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>LANGLEY RESEARCH CENTER</agency_subelement>
+    <employment>1945</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL AERONAUTICS AND SPACE ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DRYDEN FLIGHT RESEARCH CENTER</agency_subelement>
+    <employment>557</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL AERONAUTICS AND SPACE ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>GODDARD SPACE FLIGHT CENTER</agency_subelement>
+    <employment>3221</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL AERONAUTICS AND SPACE ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>GEORGE C. MARSHALL SPACE FLIGHT CENTER</agency_subelement>
+    <employment>2589</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL AERONAUTICS AND SPACE ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>JOHN C. STENNIS SPACE CENTER</agency_subelement>
+    <employment>272</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL AERONAUTICS AND SPACE ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>LYNDON B. JOHNSON SPACE CENTER</agency_subelement>
+    <employment>3334</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL AERONAUTICS AND SPACE ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>JOHN F. KENNEDY SPACE CENTER</agency_subelement>
+    <employment>2176</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL ARCHIVES AND RECORDS ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL ARCHIVES AND RECORDS ADMINISTRATION</agency_subelement>
+    <employment>3469</employment>
+  </agency>
+  <agency>
+    <name>NUCLEAR REGULATORY COMMISSION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NUCLEAR REGULATORY COMMISSION</agency_subelement>
+    <employment>4161</employment>
+  </agency>
+  <agency>
+    <name>OFFICE OF PERSONNEL MANAGEMENT</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF PERSONNEL MANAGEMENT</agency_subelement>
+    <employment>5907</employment>
+  </agency>
+  <agency>
+    <name>SMALL BUSINESS ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>SMALL BUSINESS ADMINISTRATION</agency_subelement>
+    <employment>3877</employment>
+  </agency>
+  <agency>
+    <name>SECURITIES AND EXCHANGE COMMISSION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>SECURITIES AND EXCHANGE COMMISSION</agency_subelement>
+    <employment>3750</employment>
+  </agency>
+  <agency>
+    <name>SMITHSONIAN INSTITUTION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL GALLERY OF ART</agency_subelement>
+    <employment>852</employment>
+  </agency>
+  <agency>
+    <name>SMITHSONIAN INSTITUTION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>WOODROW WILSON INTERNATIONAL CENTER FOR SCHOLARS</agency_subelement>
+    <employment>47</employment>
+  </agency>
+  <agency>
+    <name>SMITHSONIAN INSTITUTION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>SMITHSONIAN INSTITUTION (EXCEPT UNITS ADMINISTERED UNDER SEPARATE BOARDS OF TRUSTEES)</agency_subelement>
+    <employment>4075</employment>
+  </agency>
+  <agency>
+    <name>SMITHSONIAN INSTITUTION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>JOHN F. KENNEDY CENTER FOR THE PERFORMING ARTS</agency_subelement>
+    <employment>48</employment>
+  </agency>
+  <agency>
+    <name>SOCIAL SECURITY ADMINISTRATION</name>
+    <type>Large Independent Agencies (1000 or more employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>SOCIAL SECURITY ADMINISTRATION</agency_subelement>
+    <employment>67486</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL FOUNDATION ON THE ARTS AND THE HUMANITIES</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL ENDOWMENT FOR THE HUMANITIES</agency_subelement>
+    <employment>184</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL FOUNDATION ON THE ARTS AND THE HUMANITIES</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>INSTITUTE OF MUSEUM AND LIBRARY SERVICES</agency_subelement>
+    <employment>92</employment>
+  </agency>
+  <agency>
+    <name>FEDERAL LABOR RELATIONS AUTHORITY</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL LABOR RELATIONS AUTHORITY</agency_subelement>
+    <employment>134</employment>
+  </agency>
+  <agency>
+    <name>MERIT SYSTEMS PROTECTION BOARD</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>MERIT SYSTEMS PROTECTION BOARD</agency_subelement>
+    <employment>213</employment>
+  </agency>
+  <agency>
+    <name>DEFENSE NUCLEAR FACILITIES SAFETY BOARD</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DEFENSE NUCLEAR FACILITIES SAFETY BOARD</agency_subelement>
+    <employment>102</employment>
+  </agency>
+  <agency>
+    <name>PENSION BENEFIT GUARANTY CORPORATION</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>PENSION BENEFIT GUARANTY CORPORATION</agency_subelement>
+    <employment>922</employment>
+  </agency>
+  <agency>
+    <name>OFFICE OF MANAGEMENT AND BUDGET</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF MANAGEMENT AND BUDGET</agency_subelement>
+    <employment>536</employment>
+  </agency>
+  <agency>
+    <name>COMMODITY FUTURES TRADING COMMISSION</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>COMMODITY FUTURES TRADING COMMISSION</agency_subelement>
+    <employment>593</employment>
+  </agency>
+  <agency>
+    <name>EXPORT</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>EXPORT</agency_subelement>
+    <employment>388</employment>
+  </agency>
+  <agency>
+    <name>OFFICE OF ADMINISTRATION</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF ADMINISTRATION</agency_subelement>
+    <employment>226</employment>
+  </agency>
+  <agency>
+    <name>FARM CREDIT ADMINISTRATION</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FARM CREDIT ADMINISTRATION</agency_subelement>
+    <employment>278</employment>
+  </agency>
+  <agency>
+    <name>FEDERAL MEDIATION AND CONCILIATION SERVICE</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL MEDIATION AND CONCILIATION SERVICE</agency_subelement>
+    <employment>251</employment>
+  </agency>
+  <agency>
+    <name>OFFICE OF SPECIAL COUNSEL</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF SPECIAL COUNSEL</agency_subelement>
+    <employment>105</employment>
+  </agency>
+  <agency>
+    <name>OVERSEAS PRIVATE INVESTMENT CORPORATION</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OVERSEAS PRIVATE INVESTMENT CORPORATION</agency_subelement>
+    <employment>204</employment>
+  </agency>
+  <agency>
+    <name>PRESIDIO TRUST</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>PRESIDIO TRUST</agency_subelement>
+    <employment>340</employment>
+  </agency>
+  <agency>
+    <name>INTERNATIONAL BOUNDARY AND WATER COMMISSION:  UNITED STATES AND MEXICO</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>INTERNATIONAL BOUNDARY AND WATER COMMISSION:  UNITED STATES AND MEXICO</agency_subelement>
+    <employment>277</employment>
+  </agency>
+  <agency>
+    <name>U.S. HOLOCAUST MEMORIAL MUSEUM</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>U.S. HOLOCAUST MEMORIAL MUSEUM</agency_subelement>
+    <employment>192</employment>
+  </agency>
+  <agency>
+    <name>FEDERAL HOUSING FINANCE AGENCY</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL HOUSING FINANCE AGENCY</agency_subelement>
+    <employment>433</employment>
+  </agency>
+  <agency>
+    <name>CORPORATION FOR NATIONAL AND COMMUNITY SERVICE</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>CORPORATION FOR NATIONAL AND COMMUNITY SERVICE</agency_subelement>
+    <employment>586</employment>
+  </agency>
+  <agency>
+    <name>FEDERAL ELECTION COMMISSION</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL ELECTION COMMISSION</agency_subelement>
+    <employment>365</employment>
+  </agency>
+  <agency>
+    <name>U.S. TAX COURT</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>U.S. TAX COURT</agency_subelement>
+    <employment>228</employment>
+  </agency>
+  <agency>
+    <name>FEDERAL MARITIME COMMISSION</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL MARITIME COMMISSION</agency_subelement>
+    <employment>125</employment>
+  </agency>
+  <agency>
+    <name>MILLENNIUM CHALLENGE CORPORATION</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>MILLENNIUM CHALLENGE CORPORATION</agency_subelement>
+    <employment>289</employment>
+  </agency>
+  <agency>
+    <name>PEACE CORPS</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>PEACE CORPS</agency_subelement>
+    <employment>855</employment>
+  </agency>
+  <agency>
+    <name>ARMED FORCES RETIREMENT HOME</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ARMED FORCES RETIREMENT HOME</agency_subelement>
+    <employment>258</employment>
+  </agency>
+  <agency>
+    <name>RAILROAD RETIREMENT BOARD</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>RAILROAD RETIREMENT BOARD</agency_subelement>
+    <employment>967</employment>
+  </agency>
+  <agency>
+    <name>CONSUMER PRODUCT SAFETY COMMISSION</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>CONSUMER PRODUCT SAFETY COMMISSION</agency_subelement>
+    <employment>477</employment>
+  </agency>
+  <agency>
+    <name>SELECTIVE SERVICE SYSTEM</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>SELECTIVE SERVICE SYSTEM</agency_subelement>
+    <employment>178</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL TRANSPORTATION SAFETY BOARD</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL TRANSPORTATION SAFETY BOARD</agency_subelement>
+    <employment>386</employment>
+  </agency>
+  <agency>
+    <name>U.S. INTERNATIONAL TRADE COMMISSION</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>U.S. INTERNATIONAL TRADE COMMISSION</agency_subelement>
+    <employment>396</employment>
+  </agency>
+  <agency>
+    <name>OFFICE OF THE U.S. TRADE REPRESENTATIVE</name>
+    <type>Medium Independent Agencies (100-999 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE U.S. TRADE REPRESENTATIVE</agency_subelement>
+    <employment>231</employment>
+  </agency>
+  <agency>
+    <name>AFRICAN DEVELOPMENT FOUNDATION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>AFRICAN DEVELOPMENT FOUNDATION</agency_subelement>
+    <employment>27</employment>
+  </agency>
+  <agency>
+    <name>APPALACHIAN REGIONAL COMMISSION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>APPALACHIAN REGIONAL COMMISSION</agency_subelement>
+    <employment>9</employment>
+  </agency>
+  <agency>
+    <name>ARCTIC RESEARCH COMMISSION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ARCTIC RESEARCH COMMISSION</agency_subelement>
+    <employment>10</employment>
+  </agency>
+  <agency>
+    <name>JAMES MADISON MEMORIAL FELLOWSHIP FOUNDATION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>JAMES MADISON MEMORIAL FELLOWSHIP FOUNDATION</agency_subelement>
+    <employment>6</employment>
+  </agency>
+  <agency>
+    <name>ARCHITECTURAL AND TRANSPORTATION BARRIERS COMPLIANCE BOARD</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ARCHITECTURAL AND TRANSPORTATION BARRIERS COMPLIANCE BOARD</agency_subelement>
+    <employment>41</employment>
+  </agency>
+  <agency>
+    <name>NUCLEAR WASTE TECHNICAL REVIEW BOARD</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NUCLEAR WASTE TECHNICAL REVIEW BOARD</agency_subelement>
+    <employment>24</employment>
+  </agency>
+  <agency>
+    <name>CHRISTOPHER COLUMBUS FELLOWSHIP FOUNDATION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>CHRISTOPHER COLUMBUS FELLOWSHIP FOUNDATION</agency_subelement>
+    <employment>9</employment>
+  </agency>
+  <agency>
+    <name>COMMISSION ON CIVIL RIGHTS</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>COMMISSION ON CIVIL RIGHTS</agency_subelement>
+    <employment>50</employment>
+  </agency>
+  <agency>
+    <name>COUNCIL OF ECONOMIC ADVISERS</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>COUNCIL OF ECONOMIC ADVISERS</agency_subelement>
+    <employment>27</employment>
+  </agency>
+  <agency>
+    <name>COMMISSION OF FINE ARTS</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>COMMISSION OF FINE ARTS</agency_subelement>
+    <employment>11</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL COMMISSION ON LIBRARIES AND INFORMATION SCIENCE</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL COMMISSION ON LIBRARIES AND INFORMATION SCIENCE</agency_subelement>
+    <employment>17</employment>
+  </agency>
+  <agency>
+    <name>PUBLIC INTEREST DECLASSIFICATION BOARD</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>PUBLIC INTEREST DECLASSIFICATION BOARD</agency_subelement>
+    <employment>7</employment>
+  </agency>
+  <agency>
+    <name>OFFICE OF THE FEDERAL COORDINATOR FOR ALASKA NATURAL GAS TRANSPORTATION PRO</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF THE FEDERAL COORDINATOR FOR ALASKA NATURAL GAS TRANSPORTATION PROJECTS</agency_subelement>
+    <employment>10</employment>
+  </agency>
+  <agency>
+    <name>DENALI COMMISSION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DENALI COMMISSION</agency_subelement>
+    <employment>22</employment>
+  </agency>
+  <agency>
+    <name>MORRIS K. UDALL SCHOLARSHIP AND EXCELLENCE IN NATIONAL ENVIRONMENTAL POLICY</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>MORRIS K. UDALL SCHOLARSHIP AND EXCELLENCE IN NATIONAL ENVIRONMENTAL POLICY FOUNDATION</agency_subelement>
+    <employment>49</employment>
+  </agency>
+  <agency>
+    <name>COUNCIL ON ENVIRONMENTAL QUALITY/OFFICE OF ENVIRONMENTAL QUALITY</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>COUNCIL ON ENVIRONMENTAL QUALITY/OFFICE OF ENVIRONMENTAL QUALITY</agency_subelement>
+    <employment>24</employment>
+  </agency>
+  <agency>
+    <name>TRADE AND DEVELOPMENT AGENCY</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>TRADE AND DEVELOPMENT AGENCY</agency_subelement>
+    <employment>45</employment>
+  </agency>
+  <agency>
+    <name>FEDERAL FINANCIAL INSTITUTIONS EXAMINATION COUNCIL</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL FINANCIAL INSTITUTIONS EXAMINATION COUNCIL</agency_subelement>
+    <employment>10</employment>
+  </agency>
+  <agency>
+    <name>CHEMICAL SAFETY AND HAZARD INVESTIGATION BOARD</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>CHEMICAL SAFETY AND HAZARD INVESTIGATION BOARD</agency_subelement>
+    <employment>39</employment>
+  </agency>
+  <agency>
+    <name>FARM CREDIT SYSTEM INSURANCE CORPORATION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FARM CREDIT SYSTEM INSURANCE CORPORATION</agency_subelement>
+    <employment>11</employment>
+  </agency>
+  <agency>
+    <name>BARRY GOLDWATER SCHOLARSHIP AND EXCELLENCE IN EDUCATION FOUNDATION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>BARRY GOLDWATER SCHOLARSHIP AND EXCELLENCE IN EDUCATION FOUNDATION</agency_subelement>
+    <employment>7</employment>
+  </agency>
+  <agency>
+    <name>OFFICE OF GOVERNMENT ETHICS</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF GOVERNMENT ETHICS</agency_subelement>
+    <employment>75</employment>
+  </agency>
+  <agency>
+    <name>VALLES CALDERA TRUST</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>VALLES CALDERA TRUST</agency_subelement>
+    <employment>39</employment>
+  </agency>
+  <agency>
+    <name>VIETNAM EDUCATION FOUNDATION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>VIETNAM EDUCATION FOUNDATION</agency_subelement>
+    <employment>8</employment>
+  </agency>
+  <agency>
+    <name>ELECTION ASSISTANCE COMMISSION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ELECTION ASSISTANCE COMMISSION</agency_subelement>
+    <employment>56</employment>
+  </agency>
+  <agency>
+    <name>INTERNATIONAL BOUNDARY COMMISSION:  UNITED STATES AND CANADA</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>INTERNATIONAL BOUNDARY COMMISSION:  UNITED STATES AND CANADA</agency_subelement>
+    <employment>5</employment>
+  </agency>
+  <agency>
+    <name>INTERNATIONAL JOINT COMMISSION:  UNITED STATES AND CANADA</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>INTERNATIONAL JOINT COMMISSION:  UNITED STATES AND CANADA</agency_subelement>
+    <employment>18</employment>
+  </agency>
+  <agency>
+    <name>COMMITTEE FOR PURCHASE FROM PEOPLE WHO ARE BLIND OR SEVERELY DISABLED</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>COMMITTEE FOR PURCHASE FROM PEOPLE WHO ARE BLIND OR SEVERELY DISABLED</agency_subelement>
+    <employment>28</employment>
+  </agency>
+  <agency>
+    <name>ADVISORY COUNCIL ON HISTORIC PRESERVATION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>ADVISORY COUNCIL ON HISTORIC PRESERVATION</agency_subelement>
+    <employment>53</employment>
+  </agency>
+  <agency>
+    <name>HARRY S. TRUMAN SCHOLARSHIP FOUNDATION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>HARRY S. TRUMAN SCHOLARSHIP FOUNDATION</agency_subelement>
+    <employment>4</employment>
+  </agency>
+  <agency>
+    <name>U.S. INTERAGENCY COUNCIL ON HOMELESSNESS</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>U.S. INTERAGENCY COUNCIL ON HOMELESSNESS</agency_subelement>
+    <employment>15</employment>
+  </agency>
+  <agency>
+    <name>INTER</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>INTER</agency_subelement>
+    <employment>45</employment>
+  </agency>
+  <agency>
+    <name>MARINE MAMMAL COMMISSION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>MARINE MAMMAL COMMISSION</agency_subelement>
+    <employment>22</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL COUNCIL ON DISABILITY</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL COUNCIL ON DISABILITY</agency_subelement>
+    <employment>23</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL MEDIATION BOARD</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL MEDIATION BOARD</agency_subelement>
+    <employment>48</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL CAPITAL PLANNING COMMISSION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL CAPITAL PLANNING COMMISSION</agency_subelement>
+    <employment>46</employment>
+  </agency>
+  <agency>
+    <name>NATIONAL SECURITY COUNCIL</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>NATIONAL SECURITY COUNCIL</agency_subelement>
+    <employment>69</employment>
+  </agency>
+  <agency>
+    <name>OCCUPATIONAL SAFETY AND HEALTH REVIEW COMMISSION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OCCUPATIONAL SAFETY AND HEALTH REVIEW COMMISSION</agency_subelement>
+    <employment>57</employment>
+  </agency>
+  <agency>
+    <name>OFFICE OF NATIONAL DRUG CONTROL POLICY</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF NATIONAL DRUG CONTROL POLICY</agency_subelement>
+    <employment>97</employment>
+  </agency>
+  <agency>
+    <name>OFFICE OF NAVAJO AND HOPI INDIAN RELOCATION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF NAVAJO AND HOPI INDIAN RELOCATION</agency_subelement>
+    <employment>45</employment>
+  </agency>
+  <agency>
+    <name>FEDERAL RETIREMENT THRIFT INVESTMENT BOARD</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL RETIREMENT THRIFT INVESTMENT BOARD</agency_subelement>
+    <employment>85</employment>
+  </agency>
+  <agency>
+    <name>FEDERAL MINE SAFETY AND HEALTH REVIEW COMMISSION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FEDERAL MINE SAFETY AND HEALTH REVIEW COMMISSION</agency_subelement>
+    <employment>45</employment>
+  </agency>
+  <agency>
+    <name>RECOVERY ACT ACCOUNTABILITY &amp; TRANSPARENCY BOARD</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>RECOVERY ACT ACCOUNTABILITY &amp; TRANSPARENCY BOARD</agency_subelement>
+    <employment>24</employment>
+  </agency>
+  <agency>
+    <name>OFFICE OF SCIENCE AND TECHNOLOGY POLICY</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>OFFICE OF SCIENCE AND TECHNOLOGY POLICY</agency_subelement>
+    <employment>29</employment>
+  </agency>
+  <agency>
+    <name>JAPAN</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>JAPAN</agency_subelement>
+    <employment>13</employment>
+  </agency>
+  <agency>
+    <name>UTAH RECLAMATION MITIGATION AND CONSERVATION COMMISSION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>UTAH RECLAMATION MITIGATION AND CONSERVATION COMMISSION</agency_subelement>
+    <employment>15</employment>
+  </agency>
+  <agency>
+    <name>COMMISSION ON THE PREVENTION OF WEAPONS OF MASS DESTRUCTION PROLIFERATION A</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>COMMISSION ON THE PREVENTION OF WEAPONS OF MASS DESTRUCTION PROLIFERATION AND TERRORISM</agency_subelement>
+    <employment>12</employment>
+  </agency>
+  <agency>
+    <name>FINANCIAL CRISIS INQUIRY COMMISSION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>FINANCIAL CRISIS INQUIRY COMMISSION</agency_subelement>
+    <employment>30</employment>
+  </agency>
+  <agency>
+    <name>MEDICARE PAYMENT ADVISORY COMMISSION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>MEDICARE PAYMENT ADVISORY COMMISSION</agency_subelement>
+    <employment>49</employment>
+  </agency>
+  <agency>
+    <name>U.S. COMMISSION ON INTERNATIONAL RELIGIOUS FREEDOM</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>U.S. COMMISSION ON INTERNATIONAL RELIGIOUS FREEDOM</agency_subelement>
+    <employment>24</employment>
+  </agency>
+  <agency>
+    <name>UNITED STATES</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>UNITED STATES</agency_subelement>
+    <employment>31</employment>
+  </agency>
+  <agency>
+    <name>DWIGHT D. EISENHOWER MEMORIAL COMMISSION</name>
+    <type>Small Independent Agencies (less than 100 employees)</type>
+    <dod_aggregate></dod_aggregate>
+    <agency_subelement>DWIGHT D. EISENHOWER MEMORIAL COMMISSION</agency_subelement>
+    <employment>11</employment>
+  </agency>
+</agencies>
