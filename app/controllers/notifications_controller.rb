@@ -16,6 +16,7 @@ class NotificationsController < ApplicationController
   # POST /agencies/:agency_id/notifications
   def create
     @agency.notifications.create!(notification_params)
+    @user.notifications.create!(notification_params)
     json_response(@agency, :created)
   end
 
@@ -39,6 +40,10 @@ class NotificationsController < ApplicationController
 
   def set_agency
     @agency = Agency.find(params[:agency_id])
+  end
+
+  def set_user
+    @user = User.find(params[:user_id])
   end
 
   def set_agency_notification
