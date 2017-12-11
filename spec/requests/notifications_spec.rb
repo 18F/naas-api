@@ -5,14 +5,15 @@ RSpec.describe 'Notifications API' do
   # Initialize the test data
   let!(:agency) { create(:agency) }
   let!(:user) { create(:user) }
-  let!(:notifications) { create_list(:notification, 20, agency_id: agency.id, user_id: user.id) }
+  let!(:notifications) { create_list(:notification, 20, agency_id: agency.id) }
   let(:agency_id) { agency.id }
   let(:user_id) { user.id }
   let(:id) { notifications.first.id }
 
   # Test suite for GET /agencies/:agency_id/notifications
   describe 'GET /agencies/:agency_id/notifications' do
-    before { get "/agencies/#{agency_id}/notifications?user_id=" + user_id.to_s }
+    #?user_id=" + user_id.to_s
+    before { get "/agencies/#{agency_id}/notifications" }
 
     context 'when agency exists' do
       it 'returns status code 200' do
