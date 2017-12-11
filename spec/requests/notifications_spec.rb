@@ -12,7 +12,7 @@ RSpec.describe 'Notifications API' do
 
   # Test suite for GET /agencies/:agency_id/notifications
   describe 'GET /agencies/:agency_id/notifications' do
-    before { get "/agencies/#{agency_id}/notifications" }
+    before { get "/agencies/#{agency_id}/notifications?user_id=" + user_id.to_s }
 
     context 'when agency exists' do
       it 'returns status code 200' do

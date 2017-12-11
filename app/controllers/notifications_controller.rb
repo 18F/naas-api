@@ -1,6 +1,7 @@
 # app/controllers/notifications_controller.rb
 class NotificationsController < ApplicationController
   before_action :set_agency
+  before_action :set_user
   before_action :set_agency_notification, only: [:show, :update, :destroy]
 
   # GET /agencies/:agency_id/notifications
@@ -16,7 +17,7 @@ class NotificationsController < ApplicationController
   # POST /agencies/:agency_id/notifications
   def create
     @agency.notifications.create!(notification_params)
-    @user.notifications.create!(notification_params)
+    #@user.notifications.create!(notification_params)
     json_response(@agency, :created)
   end
 
@@ -35,7 +36,7 @@ class NotificationsController < ApplicationController
   private
 
   def notification_params
-    params.permit(:name)
+    params.permit(:name, :user_id)
   end
 
   def set_agency
