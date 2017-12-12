@@ -1,10 +1,9 @@
 Rails.application.routes.draw do
-  resources :agencies do
-    resources :notifications
+  resources :notifications do
+    resources :user_subscriptions
   end
 
   resources :users do
-    resources :notifications
-    resources :agencies
+    resources :user_subscriptions
   end
 end

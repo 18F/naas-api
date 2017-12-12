@@ -1,48 +1,44 @@
 # app/controllers/notifications_controller.rb
 class NotificationsController < ApplicationController
-  before_action :set_agency
-  before_action :set_agency_notification, only: [:show, :update, :destroy]
+  before_action :set_notifications, only: [:show, :update, :destroy]
 
-  # GET /agencies/:agency_id/notifications
+  # GET /notificationss
   def index
-    json_response(@agency.notifications)
+    @agencies = Notification.all
+    json_response(@agencies)
   end
 
-  # GET /agencies/:agency_id/notifications/:id
-  def show
-    json_response(@notification)
-  end
-
-  # POST /agencies/:agency_id/notifications
+  # POST /notificationss
   def create
-    @agency.notifications.create!(notification_params)
-    #@user.notifications.create!(notification_params)
-    json_response(@agency, :created)
+    @notifications = Notification.create!(notifications_params)
+    json_response(@notifications, :created)
   end
 
-  # PUT /agencies/:agency_id/notifications/:id
+  # GET /agencies/:id
+  def show
+    json_response(@notifications)
+  end
+
+  # PUT /agencies/:id
   def update
-    @notification.update(notification_params)
+    @notifications.update(notifications_params)
     head :no_content
   end
 
-  # DELETE /agencies/:agency_id/notifications:id
+  # DELETE /notificationss/:id
   def destroy
-    @notification.destroy
+    @notifications.destroy
     head :no_content
   end
 
   private
 
-  def notification_params
-    params.permit(:name, :user_id)
+  def notifications_params
+    # whitelist params
+    params.permit(:name, :created_by)
   end
 
-  def set_agency
-    @agency = Agency.find(params[:agency_id])
-  end
-
-  def set_agency_notification
-    @notification = @agency.notifications.find_by!(id: params[:id]) if @agency
+  def set_notifications
+    @notifications = Notification.find(params[:id])
   end
 end
