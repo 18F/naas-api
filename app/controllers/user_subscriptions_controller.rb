@@ -1,10 +1,11 @@
 # app/controllers/user_subscriptions_controller.rb
 class UserSubscriptionsController < ApplicationController
-  before_action :set_user_subscription
+  before_action :set_notification
   before_action :set_notification_user_subscription, only: [:show, :update, :destroy]
 
   # GET /notifications/:notification_id/user_subscriptions
   def index
+    #if params[]
     json_response(@notification.user_subscriptions)
   end
 
@@ -38,9 +39,15 @@ class UserSubscriptionsController < ApplicationController
     params.permit(:name, :user_id)
   end
 
-  def set_user_subscription
+  def notification_params
+    params.permit(:name, :notification_id)
+  end
+
+  def set_notification
     @notification = Notification.find(params[:notification_id])
   end
+
+
 
   def set_notification_user_subscription
     @user_subscription = @notification.user_subscriptions.find_by!(id: params[:id]) if @notification
