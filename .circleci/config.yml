@@ -27,7 +27,7 @@ jobs:
           - v1-dependencies-
       - run:
           name: Bundle Install
-          command: bundle check || gem bundle install
+          command: bundle check || gem install bundler
 
       - run:
           name: install dependencies
