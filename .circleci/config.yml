@@ -52,10 +52,10 @@ jobs:
       # ./cc-test-reporter before-build
       - run:
           name: run tests
-            command: |
-              mkdir /tmp/test-results
-              TEST_FILES="$(circleci tests glob "spec/**/*_spec.rb" | tr '\n' ' ' | circleci tests split --split-by=timings)"
-              bundle exec rspec
+          command: |
+            mkdir /tmp/test-results
+            TEST_FILES="$(circleci tests glob "spec/**/*_spec.rb" | tr '\n' ' ' | circleci tests split --split-by=timings)"
+            bundle exec rspec
       #- run:
       #    name: Upload Test Results to Code Climate
       #     command: |
