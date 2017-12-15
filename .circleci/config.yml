@@ -51,11 +51,16 @@ jobs:
       # run tests!
       - run:
           name: run tests
-          command: |
-            mkdir /tmp/test-results
-            TEST_FILES="$(circleci tests glob "spec/**/*_spec.rb" | tr '\n' ' ' | circleci tests split --split-by=timings)"
-            ./cc-test-reporter before-build
-            bundle exec rspec
+            command: |
+              mkdir /tmp/test-results
+              TEST_FILES="$(circleci tests glob "spec/**/*_spec.rb" | tr '\n' ' ' | circleci tests split --split-by=timings)"
+              ./cc-test-reporter before-build
+              bundle exec rspec
+      - run:
+          name: Upload Test Results to Code Climate
+            command: |
+              ./cc-test-reporter format-coverage -t simplecov $CIRCLE_ARTIFACTS/coverage/.resultset.json
+              ./cc-test-reporter upload-coverage
 
 
       # collect reports
