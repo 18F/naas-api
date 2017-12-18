@@ -22,6 +22,7 @@ gem 'puma', '~> 3.7'
 gem 'rspec_junit_formatter'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'rubocop', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
