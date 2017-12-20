@@ -1,4 +1,5 @@
 class Notification < ApplicationRecord
-  belongs_to :agency
-  validates_presence_of :name
+  has_many :user_subscriptions, dependent: :destroy
+  has_many :users, through: :user_subscriptions
+  validates_presence_of :name, :created_by
 end
