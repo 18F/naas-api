@@ -37,5 +37,8 @@ module NaasApi
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+
+    config.autoload_paths << Rails.root.join("lib") # this is the key code to add
+    #config.active_record.raise_in_transactional_callbacks = true
   end
 end

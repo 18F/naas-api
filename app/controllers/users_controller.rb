@@ -46,7 +46,6 @@ class UsersController < ApplicationController
   end
 
   def set_user
-    puts('hellooooooo')
     @user = User.find(params[:id])
   end
 
