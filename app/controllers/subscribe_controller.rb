@@ -6,21 +6,11 @@ class SubscribeController < ApplicationController
 
     @twilio_client = Twilio::REST::Client.new Rails.application.secrets.twilio_account_sid,
                                               Rails.application.secrets.twilio_auth_token
-    #@twilio_client = Twilio::REST::Client.new 'AC93eb2ced768ad309d3b9c900c7cf1dfa',
-    #                                          '5d854aeb1b48b2ab0233f9f92945d0ef'
     @twilio_phone_number = Rails.application.secrets.twilio_number
 
     SmsTool.send_sms(params[:phone],
                      "Welcome to Notifications-as-a-Service or NAAS. To continue receiving messages reply with 'YES'",
                      "My App")
-
-=begin
-    @twilio_client.api.account.messages.create(
-        :from => "+1#{@twilio_phone_number}",
-        :to => params[:phone],
-        :body => "Welcome to Notifications-as-a-Service or NAAS. To continue receiving messages reply with 'YES'"
-    )
-=end
 
   end
 
