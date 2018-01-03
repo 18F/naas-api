@@ -27,3 +27,5 @@
 
 # Ignore code climate coverage
 coverage
+
+/.env
