@@ -10,21 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171207185525) do
+ActiveRecord::Schema.define(version: 20171228224141) do
 
-  create_table "agencies", force: :cascade do |t|
+  create_table "notifications", force: :cascade do |t|
     t.string "name"
     t.string "created_by"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  create_table "notifications", force: :cascade do |t|
+  create_table "user_subscriptions", force: :cascade do |t|
     t.string "name"
-    t.integer "agency_id"
+    t.integer "notification_id"
+    t.integer "users_id"
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["agency_id"], name: "index_notifications_on_agency_id"
+    t.index ["notification_id"], name: "index_user_subscriptions_on_notification_id"
+    t.index ["users_id"], name: "index_user_subscriptions_on_users_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -32,9 +35,12 @@ ActiveRecord::Schema.define(version: 20171207185525) do
     t.string "first_name"
     t.string "middle_name"
     t.string "last_name"
-    t.integer "phone"
+    t.string "phone"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "password_digest"
+    t.string "name"
+    t.boolean "confirmed"
   end
 
 end

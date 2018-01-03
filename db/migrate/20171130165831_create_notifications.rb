@@ -1,6 +1,6 @@
-class CreateAgencies < ActiveRecord::Migration[5.1]
+class CreateNotifications < ActiveRecord::Migration[5.1]
   def change
-    create_table :agencies do |t|
+    create_table :notifications do |t|
       t.string :name
       t.string :created_by
 
