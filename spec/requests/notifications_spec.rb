@@ -5,11 +5,15 @@ RSpec.describe 'notifications API', type: :request do
   # initialize test data
   let!(:notifications) { create_list(:notification, 10) }
   let(:notification_id) { notifications.first.id }
+  let!(:user) { create(:user) }
+  let(:user_id) { user.id }
+  let(:user_email) { user.email}
+  let(:user_password) {user.password}
 
   # Test suite for GET /notifications
   describe 'GET /notifications' do
     # make HTTP get request before each example
-    before { get '/notifications' }
+    before { get '/notifications', headers: auth_headers(user.id) }
 
     it 'returns notifications' do
       # Note `json` is a custom helper to parse JSON responses
@@ -24,7 +28,7 @@ RSpec.describe 'notifications API', type: :request do
 
   # Test suite for GET /notifications/:id
   describe 'GET /notifications/:id' do
-    before { get "/notifications/#{notification_id}" }
+    before { get "/notifications/#{notification_id}", headers: auth_headers(user.id) }
 
     context 'when the record exists' do
       it 'returns the notification' do
@@ -56,7 +60,7 @@ RSpec.describe 'notifications API', type: :request do
     let(:valid_attributes) { { name: 'Learn Elm', created_by: '1' } }
 
     context 'when the request is valid' do
-      before { post '/notifications', params: valid_attributes }
+      before { post '/notifications', params: valid_attributes, headers: auth_headers(user.id)  }
 
       it 'creates a notification' do
         expect(json['name']).to eq('Learn Elm')
@@ -68,7 +72,7 @@ RSpec.describe 'notifications API', type: :request do
     end
 
     context 'when the request is invalid' do
-      before { post '/notifications', params: { name: 'Foobar' } }
+      before { post '/notifications', params: { name: 'Foobar' }, headers: auth_headers(user.id) }
 
       it 'returns status code 422' do
         expect(response).to have_http_status(422)
@@ -86,7 +90,7 @@ RSpec.describe 'notifications API', type: :request do
     let(:valid_attributes) { { name: 'Shopping' } }
 
     context 'when the record exists' do
-      before { put "/notifications/#{notification_id}", params: valid_attributes }
+      before { put "/notifications/#{notification_id}", params: valid_attributes, headers: auth_headers(user.id) }
 
       it 'updates the record' do
         expect(response.body).to be_empty
@@ -100,7 +104,7 @@ RSpec.describe 'notifications API', type: :request do
 
   # Test suite for DELETE /notifications/:id
   describe 'DELETE /notifications/:id' do
-    before { delete "/notifications/#{notification_id}" }
+    before { delete "/notifications/#{notification_id}", headers: auth_headers(user.id) }
 
     it 'returns status code 204' do
       expect(response).to have_http_status(204)
