@@ -1,5 +1,6 @@
 class SubscribeController < ApplicationController
   include SmsTool
+  #skip_before_action :confirm
 
   def show
     #authenticate_request
