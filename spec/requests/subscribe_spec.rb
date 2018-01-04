@@ -1,6 +1,8 @@
 require "rails_helper"
 
 RSpec.describe 'subscribe API', type: :request do
+  let!(:user) { create(:user) }
+  
   headers = {
       "ACCEPT" => "application/json"
   }
@@ -10,7 +12,7 @@ RSpec.describe 'subscribe API', type: :request do
 
 
   context 'when subscibe message is sent' do
-    before {post "/subscribe", params: valid_attributes, headers: headers}
+    before {post "/subscribe", params: valid_attributes, headers: auth_headers(user.id)}
 
     it 'returns status code 201' do
       expect(FakeSMS.messages.last.num).to eq("1234567890")
