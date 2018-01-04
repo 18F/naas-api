@@ -13,14 +13,8 @@ Rails.application.routes.draw do
     end
   end
 
-  post 'subscribe', to: 'subscribe#send'
+  post 'subscribe', to: 'subscribe#show'
   post 'confirm', to: 'subscribe#confirm'
 
-=begin
-  resource :subscribe do
-    member do
-      post 'send'
-    end
-  end
-=end
+  post 'authenticate', to: 'authentication#authenticate'
 end

@@ -8,13 +8,15 @@ RSpec.describe 'user_subscriptions API' do
   let!(:user_subscriptions) { create_list(:user_subscription, 20, notification_id: notification.id, user_id: user.id) }
   let(:notification_id) { notification.id }
   let(:user_id) { user.id }
+  let(:user_email) { user.email}
+  let(:user_password) {user.password}
   let(:id) { user_subscriptions.first.id }
 
   # Test suite for GET /notifications/:notification_id/user_subscriptions
   describe 'GET /notifications/:notification_id/user_subscriptions' do
     #?user_id=" + user_id.to_s
 
-    before { get "/notifications/#{notification_id}/user_subscriptions?user_id" +  user_id.to_s}
+    before { get "/notifications/#{notification_id}/user_subscriptions?user_id" +  user_id.to_s, headers: auth_headers(user.id) }
 
     context 'when subscription exists' do
       it 'returns status code 200' do
@@ -41,7 +43,7 @@ RSpec.describe 'user_subscriptions API' do
 
   # Test suite for GET /notifications/:notification_id/user_subscriptions/:id
   describe 'GET /notifications/:notification_id/user_subscriptions/:id' do
-    before { get "/notifications/#{notification_id}/user_subscriptions/#{id}" }
+    before { get "/notifications/#{notification_id}/user_subscriptions/#{id}", headers: auth_headers(user.id)  }
 
     context 'when subscription user_subscription exists' do
       it 'returns status code 200' do
@@ -71,7 +73,8 @@ RSpec.describe 'user_subscriptions API' do
     let(:valid_attributes) { { name: 'Visit Narnia', user_id: user_id } }
 
     context 'when request attributes are valid' do
-      before { post "/notifications/#{notification_id}/user_subscriptions", params: valid_attributes }
+      before { post "/notifications/#{notification_id}/user_subscriptions", params: valid_attributes,
+                    headers: auth_headers(user.id)  }
 
       it 'returns status code 201' do
         expect(response).to have_http_status(201)
@@ -79,7 +82,8 @@ RSpec.describe 'user_subscriptions API' do
     end
 
     context 'when an invalid request' do
-      before { post "/notifications/#{notification_id}/user_subscriptions", params: {user_id: user_id} }
+      before { post "/notifications/#{notification_id}/user_subscriptions", params: {user_id: user_id},
+                    headers: auth_headers(user.id)  }
 
       it 'returns status code 422' do
         expect(response).to have_http_status(422)
@@ -95,7 +99,8 @@ RSpec.describe 'user_subscriptions API' do
   describe 'PUT /notifications/:notification_id/user_subscriptions/:id' do
     let(:valid_attributes) { { name: 'Mozart' } }
 
-    before { put "/notifications/#{notification_id}/user_subscriptions/#{id}", params: valid_attributes }
+    before { put "/notifications/#{notification_id}/user_subscriptions/#{id}", params: valid_attributes,
+                 headers: auth_headers(user.id) }
 
     context 'when user_subscription exists' do
       it 'returns status code 204' do
@@ -123,7 +128,7 @@ RSpec.describe 'user_subscriptions API' do
 
   # Test suite for DELETE /notifications/:id
   describe 'DELETE /notifications/:id' do
-    before { delete "/notifications/#{notification_id}/user_subscriptions/#{id}" }
+    before { delete "/notifications/#{notification_id}/user_subscriptions/#{id}", headers: auth_headers(user.id)  }
 
     it 'returns status code 204' do
       expect(response).to have_http_status(204)

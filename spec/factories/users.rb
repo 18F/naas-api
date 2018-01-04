@@ -4,6 +4,7 @@ FactoryBot.define do
     first_name "MyString"
     middle_name "MyString"
     last_name "MyString"
+    password "password"
     phone 1
   end
 end
