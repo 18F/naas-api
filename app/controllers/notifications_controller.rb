@@ -31,11 +31,25 @@ class NotificationsController < ApplicationController
     head :no_content
   end
 
+  def users
+    #@user = User.find(params[:id])
+    json_response(@notifications.users)
+  end
+
+  def send_group_notification
+    users = @notifications.users
+    body = params[:body] || @notifications.body
+    users.each do |user|
+       SMSTool.sendSMS(user.number, body, params['app'] )
+    end
+
+  end
+
   private
 
   def notifications_params
     # whitelist params
-    params.permit(:name, :created_by)
+    params.permit(:name, :created_by, :body)
   end
 
   def set_notifications
