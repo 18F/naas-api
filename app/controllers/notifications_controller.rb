@@ -1,6 +1,8 @@
 # app/controllers/notifications_controller.rb
 class NotificationsController < ApplicationController
-  before_action :set_notifications, only: [:show, :update, :destroy]
+
+  before_action :set_notifications, only: [:show, :update, :destroy, :users, :send_group_notification]
+  include SmsTool
 
   # GET /notificationss
   def index
@@ -32,7 +34,6 @@ class NotificationsController < ApplicationController
   end
 
   def users
-    #@user = User.find(params[:id])
     json_response(@notifications.users)
   end
 
@@ -40,7 +41,7 @@ class NotificationsController < ApplicationController
     users = @notifications.users
     body = params[:body] || @notifications.body
     users.each do |user|
-       SMSTool.sendSMS(user.number, body, params['app'] )
+       SmsTool.send_sms(user.phone, body, 'naas-api' )
     end
 
   end

@@ -11,7 +11,7 @@ Rails.application.routes.draw do
 
   resources :notifications do
     member do
-      post 'send_notification'
+      post 'send_group_notification'
     end
   end
 
@@ -25,9 +25,10 @@ Rails.application.routes.draw do
       get 'notifications'
     end
   end
-  
+
   post 'subscribe', to: 'subscribe#show'
   post 'confirm', to: 'subscribe#confirm'
+
 
   post 'authenticate', to: 'authentication#authenticate'
 end
