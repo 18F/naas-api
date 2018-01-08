@@ -7,5 +7,14 @@ Rails.application.routes.draw do
     resources :user_subscriptions
   end
 
+  resources :users do
+    member do
+      get 'notifications'
+    end
+  end
+
+  post 'subscribe', to: 'subscribe#show'
+  post 'confirm', to: 'subscribe#confirm'
+
   post 'authenticate', to: 'authentication#authenticate'
 end
