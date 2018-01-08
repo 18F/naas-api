@@ -110,4 +110,24 @@ RSpec.describe 'notifications API', type: :request do
       expect(response).to have_http_status(204)
     end
   end
+
+  # Test suite for multiple SMS send
+  describe 'POST /notifications/:id/send_group_notification' do
+    before { post '/users', params: { last_name: 'Doolittle', email: 'fake@veryfake.com', password: 'evenfakerer',
+                                      password_confirmation: 'evenfakerer', phone: 1234567}, headers: auth_headers(user_id) }
+    before { post "/notifications/#{notification_id}/user_subscriptions", params:{"user_id":1,"name":"targeted_alert"}, headers: auth_headers(user_id) }
+    it 'returns status code 201' do
+      expect(response).to have_http_status(204)
+    end
+    before { post "/notifications/#{notification_id}/user_subscriptions", params:{"user_id":2,"name":"targeted_alert"}, headers: auth_headers(user_id) }
+    it 'returns status code 201' do
+      expect(response).to have_http_status(204)
+    end
+    before { post "/notifications/#{notification_id}/send_group_notification", params: {"body": "hello human"}, headers: auth_headers(user.id)}
+
+    it 'sends message to provided number' do
+      expect(FakeSMS.messages.last.num).to eq("1234567")
+      expect(FakeSMS.messages.first.num).to eq("1")
+    end
+  end
 end
