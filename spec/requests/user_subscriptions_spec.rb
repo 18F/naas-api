@@ -79,6 +79,10 @@ RSpec.describe 'user_subscriptions API' do
       it 'returns status code 201' do
         expect(response).to have_http_status(201)
       end
+
+      it 'expect json to have id of subscription' do
+        expect(json['user_id']).to eq(user_id)
+      end
     end
 
     context 'when an invalid request' do

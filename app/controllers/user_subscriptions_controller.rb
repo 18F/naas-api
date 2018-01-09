@@ -24,10 +24,8 @@ class UserSubscriptionsController < ApplicationController
 
   # POST /notifications/:notification_id/user_subscriptions
   def create
-    @notification.user_subscriptions.create!(user_subscription_params)
-    #@user = User.find(params[:user_id])
-    #@user.user_subscriptions.create!(user_subscription_params)
-    json_response(@user_subscription, :created)
+    user_subscription = @notification.user_subscriptions.create!(user_subscription_params)
+    json_response(user_subscription, :created)
   end
 
   # PUT /notifications/:notification_id/user_subscriptions/:id
