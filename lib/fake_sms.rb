@@ -9,4 +9,5 @@ module FakeSMS
   def self.messages
     @messages
   end
+
 end

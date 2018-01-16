@@ -10,13 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171228224141) do
+ActiveRecord::Schema.define(version: 20180108165941) do
 
   create_table "notifications", force: :cascade do |t|
     t.string "name"
     t.string "created_by"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text "body"
   end
 
   create_table "user_subscriptions", force: :cascade do |t|

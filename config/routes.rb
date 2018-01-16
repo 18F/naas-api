@@ -3,6 +3,18 @@ Rails.application.routes.draw do
     resources :user_subscriptions
   end
 
+  resources :notifications do
+    member do
+      get 'users'
+    end
+  end
+
+  resources :notifications do
+    member do
+      post 'send_group_notification'
+    end
+  end
+
   resources :users do
     resources :user_subscriptions
   end

@@ -1,6 +1,8 @@
 # app/controllers/notifications_controller.rb
 class NotificationsController < ApplicationController
-  before_action :set_notifications, only: [:show, :update, :destroy]
+
+  before_action :set_notifications, only: [:show, :update, :destroy, :users, :send_group_notification]
+  include SmsTool
 
   # GET /notificationss
   def index
@@ -31,11 +33,24 @@ class NotificationsController < ApplicationController
     head :no_content
   end
 
+  def users
+    json_response(@notifications.users)
+  end
+
+  def send_group_notification
+    users = @notifications.users
+    body = params[:body] || @notifications.body
+    users.each do |user|
+       SmsTool.send_sms(user.phone, body, 'naas-api' )
+    end
+
+  end
+
   private
 
   def notifications_params
     # whitelist params
-    params.permit(:name, :created_by)
+    params.permit(:name, :created_by, :body)
   end
 
   def set_notifications
