@@ -35,6 +35,11 @@ class UsersController < ApplicationController
     json_response(@user.notifications)
   end
 
+  def get_unread_notificaiton
+    unread = @user.user_subscriptions.
+    json_response()
+  end
+
   private
 
   def user_params
