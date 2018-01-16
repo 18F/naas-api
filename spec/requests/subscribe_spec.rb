@@ -24,7 +24,7 @@ RSpec.describe 'subscribe API', type: :request do
 
 
   describe "POST /confirm" do
-    let(:valid_attributes) {{From: "+1", Body: "YES"}}
+    let(:valid_attributes) {{From: "+" + user.phone, Body: "YES"}}
 
 
     context 'when reply is sent' do
