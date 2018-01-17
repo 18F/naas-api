@@ -17,7 +17,8 @@ Requirements:
   - If you'd like to send live messagse, you will need to register for API credentials and a phone number with [Twilio](https://www.twilio.com/).
 2. Bundle application dependencies with `bundle`,
   - Install the latest version of bundler with `gem install bundler`
-2. Start the server with `bin/rails s` and your application will be running at http://localhost:3000
+3. Setup the database with `rake db:setup db:migrate`
+4. Start the server with `bin/rails s` and your application will be running at http://localhost:3000
 
 ### Running the specs
 
