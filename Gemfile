@@ -6,23 +6,22 @@ end
 
 ruby '2.4.2'
 
-gem 'pg', '~> 0.18.4'
-gem 'rails', '~> 5.1.4'
-gem 'puma', '~> 3.7'
 gem 'bcrypt', '~> 3.1.7'
 gem 'jwt'
-gem 'simple_command'
+gem 'puma', '~> 3.7'
+gem 'rack-cors', :require => 'rack/cors'
+gem 'rails', '~> 5.1.4'
 gem 'rspec_junit_formatter'
 gem 'rubocop', require: false
-gem 'rack-cors', :require => 'rack/cors'
+gem 'simple_command'
 gem 'twilio-ruby', '~> 5.6.0'
 
 group :development, :test do
-  gem 'sqlite3'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'dotenv-rails', :groups => [:development, :test]
   gem 'rspec-rails', '~> 3.5'
   gem 'simplecov', :require => false
-  gem 'dotenv-rails', :groups => [:development, :test]
+  gem 'sqlite3'
 end
 
 group :development do
@@ -38,5 +37,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
+  gem 'pg', '~> 0.18.4'
   gem 'rails_12factor'
 end
