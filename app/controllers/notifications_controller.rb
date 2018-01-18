@@ -46,9 +46,7 @@ class NotificationsController < ApplicationController
     end
 
     users.each do |user|
-      puts('hello')
       user.notification_events.create!(:body => body, :unread => true, :user_id => user.id )
-      #user.notification_events.create!(notification_event_params)
     end
 
   end
