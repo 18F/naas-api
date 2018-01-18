@@ -9,16 +9,16 @@
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
 # It's strongly recommended that you check this file into your version control system.
-ActiveRecord::Schema.define(version: 20180116215754) do
+
+ActiveRecord::Schema.define(version: 20180118201320) do
 
   create_table "notification_events", force: :cascade do |t|
     t.text "body"
-    t.boolean "read"
-    t.integer "user_subscriptions_id"
-    t.integer "user_subscription_id"
+    t.boolean "unread"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["user_subscriptions_id"], name: "index_notification_events_on_user_subscriptions_id"
+    t.integer "user_id"
+    t.index ["user_id"], name: "index_notification_events_on_user_id"
   end
 
   create_table "notifications", force: :cascade do |t|
