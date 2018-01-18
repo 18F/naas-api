@@ -1,26 +1,35 @@
 # naas-api
 API for notifications service (notfications-as-a-service or NAAS) prototype
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Development
 
-* Ruby version
+Requirements:
 
-* System dependencies
+- Ruby 2.0+
+- Bundler
+- [Ngrok](https://ngrok.com/) or [localtunnel](https://localtunnel.github.io/www/) if you wish to send live messages.
+  - Note: these tools are likely not approved for use on any government network. 
 
-* Configuration
+### Running the app locally
 
-* Database creation
+1. Configure application secrets in `/config/secrets.yml`
+  - If you'd like to send live messagse, you will need to register for API credentials and a phone number with [Twilio](https://www.twilio.com/).
+2. Bundle application dependencies with `bundle`,
+  - Install the latest version of bundler with `gem install bundler`
+3. Setup the database with `rake db:setup db:migrate`
+4. Start the server with `bin/rails s` and your application will be running at http://localhost:3000
 
-* Database initialization
+### Running the specs
 
-* How to run the test suite
+1. To run the suite of specs, simply run `rake`.
 
-* Services (job queues, cache servers, search engines, etc.)
+### Deploying to cloud.gov
 
-* Deployment instructions
+1. Install the CloudFoundry client and authenticate with cloud.gov.
+  - For help, visit [Set up the command line](https://cloud.gov/docs/getting-started/setup/#set-up-the-command-line) in the cloud.gov documentation.
+2. The name of the application can be defined with the environment variable `APP_NAME`, otherwise, it will be deployed as `naas-api` upon executing `bin/cf_push`.
+
 
 ## API Interaction
 
@@ -88,5 +97,10 @@ the notification will be sent with a body that was saved with the notification w
 curl -H "Content-Type: application/json" -H "Authorization:eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0LCJleHAiOjE1MTU3OTUxNzZ9.JN7aLcS1l7PS6GPE0B5KA7iozZ4AIClNa3wtb7yuviI" -X POST -d '{ "body": "Hello from NAAS"}' http://localhost:3001/notifications/3/send_group_notification
 ```
 
+## Public domain
 
+This project is in the worldwide [public domain](LICENSE.md). As stated in [CONTRIBUTING](CONTRIBUTING.md):
 
+> This project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+>
+> All contributions to this project will be released under the CC0 dedication. By submitting a pull request, you are agreeing to comply with this waiver of copyright interest.
