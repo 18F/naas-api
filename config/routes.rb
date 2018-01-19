@@ -9,12 +9,6 @@ Rails.application.routes.draw do
     end
   end
 
-  resources :notification_events do
-    member do
-      get 'notification_events'
-    end
-  end
-
   resources :notifications do
     member do
       post 'send_group_notification'
@@ -23,28 +17,14 @@ Rails.application.routes.draw do
 
   resources :users do
     resources :user_subscriptions
+    resources :notification_events
   end
 
   resources :users do
     member do
       get 'subscribed_notifications'
-    end
-  end
-
-  resources :users do
-    member do
       get 'notifications'
-    end
-  end
-
-  resources :users do
-    member do
       get 'unread_notifications'
-    end
-  end
-
-  resources :users do
-    member do
       get 'read_notifications'
     end
   end

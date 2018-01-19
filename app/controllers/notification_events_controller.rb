@@ -4,8 +4,8 @@ class NotificationEventsController < ApplicationController
 
   # GET /Notification_Events
   def index
-    @notification_events = NotificationEvent.all
-    json_response(@Notification_Events)
+    @notification_events = @user.notification_events
+    json_response(@notification_events)
   end
 
   # POST /Notification_Events
@@ -21,7 +21,12 @@ class NotificationEventsController < ApplicationController
 
   # PUT /Notification_Events/:id
   def update
-    @notification_event.update(notification_event_params)
+    #had trouble implementing a simple boolean in rails, this works
+    attributes = notification_event_params.clone
+    unread = params[:unread] == "1"
+    attributes[:unread] = unread
+    attributes.delete(:notification_event)
+    @notification_event.update!(attributes)
     head :no_content
   end
 
@@ -35,7 +40,7 @@ class NotificationEventsController < ApplicationController
 
   def notification_event_params
     # whitelist params
-    params.permit(:body, :unread, :user_id)
+    params.permit(:body, :unread, :user_id, :id, :notification_event)
   end
 
   def set_user
@@ -43,6 +48,7 @@ class NotificationEventsController < ApplicationController
   end
 
   def set_notification_event
-    @notification_event = NotificationEvent.find(params[:id])
+    @notification_event = @user.notification_events.find_by!(id: params[:id]) if @user
+
   end
 end
