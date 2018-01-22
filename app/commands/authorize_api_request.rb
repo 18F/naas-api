@@ -1,4 +1,5 @@
 # app/commands/authorize_api_request.rb
+require 'json_web_token'
 
 class AuthorizeApiRequest
   prepend SimpleCommand

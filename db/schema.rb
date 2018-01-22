@@ -9,8 +9,7 @@
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
 # It's strongly recommended that you check this file into your version control system.
-
-ActiveRecord::Schema.define(version: 20180118201320) do
+ActiveRecord::Schema.define(version: 20180119012017) do
 
   create_table "notification_events", force: :cascade do |t|
     t.text "body"
