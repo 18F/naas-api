@@ -134,7 +134,7 @@ RSpec.describe 'notifications API', type: :request do
 
     it 'sends message to provided numbers' do
       expect(FakeSMS.messages.last.num).to eq("1234567")
-      expect(FakeSMS.messages.first.num).to eq("1")
+      expect(FakeSMS.messages.first.num).to eq(user.phone)
       expect(2).to eq(FakeSMS.messages.size)
     end
 
