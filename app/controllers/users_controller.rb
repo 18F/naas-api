@@ -1,6 +1,6 @@
 # app/controllers/users_controller.rb
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show, :update, :destroy, :notifications]
+  before_action :set_user, only: [:show, :update, :destroy, :notifications, :unread_notifications, :read_notifications]
 
   # GET /Users
   def index
@@ -31,8 +31,22 @@ class UsersController < ApplicationController
     head :no_content
   end
 
-  def notifications
+  def subscribed_notifications
     json_response(@user.notifications)
+  end
+
+  def unread_notifications
+    @notification_events = @user.notification_events.select{|event| event.unread?}
+    json_response(@notification_events)
+  end
+
+  def read_notifications
+    @notification_events = @user.notification_events.select{|event| !event.unread?}
+    json_response(@notification_events)
+  end
+
+  def notifications
+    json_response( @user.notification_events)
   end
 
   private

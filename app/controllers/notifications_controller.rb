@@ -40,8 +40,13 @@ class NotificationsController < ApplicationController
   def send_group_notification
     users = @notifications.users
     body = params[:body] || @notifications.body
+
     users.each do |user|
-       SmsTool.send_sms(user.phone, body, 'naas-api' )
+      SmsTool.send_sms(user.phone, body, 'naas-api' )
+    end
+
+    users.each do |user|
+      user.notification_events.create!(:body => body, :unread => true, :user_id => user.id )
     end
 
   end
