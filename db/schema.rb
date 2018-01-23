@@ -10,15 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180119012017) do
+ActiveRecord::Schema.define(version: 20180123185328) do
 
   create_table "notification_events", force: :cascade do |t|
     t.text "body"
     t.boolean "unread"
+    t.integer "users_id"
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "user_id"
-    t.index ["user_id"], name: "index_notification_events_on_user_id"
+    t.index ["users_id"], name: "index_notification_events_on_users_id"
   end
 
   create_table "notifications", force: :cascade do |t|
