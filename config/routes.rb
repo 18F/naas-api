@@ -17,11 +17,15 @@ Rails.application.routes.draw do
 
   resources :users do
     resources :user_subscriptions
+    resources :notification_events
   end
 
   resources :users do
     member do
+      get 'subscribed_notifications'
       get 'notifications'
+      get 'unread_notifications'
+      get 'read_notifications'
     end
   end
 
