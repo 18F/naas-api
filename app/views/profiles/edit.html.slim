@@ -1,0 +1,16 @@
+h1 Edit profile
+
+- if @user.phone.blank?
+	p In order to receive notifications, we need a phone number capable of receive text (SMS) messages.
+
+= form_for(@user, { url: '/profile' }) do |f|
+
+	.form-field
+		= f.label :phone
+		br
+		= f.text_field :phone
+
+	br
+	= f.submit 'Update', class: 'usa-button'
+
+= button_to('Back', link_success_path, { class: 'usa-button-gray', method: :get })
