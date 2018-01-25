@@ -4,7 +4,7 @@ require 'rails_helper'
 RSpec.describe 'notifications API', type: :request do
 
   # initialize test data
-  let!(:notifications) { create_list(:notificion, 10) }
+  let!(:notifications) { create_list(:notification, 10) }
   let(:notification_id) { notifications.first.id }
   let!(:user) { create(:user) }
   let(:user_id) { user.id }
