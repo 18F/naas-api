@@ -28,8 +28,8 @@ Rails.application.configure do
   # config.action_controller.asset_host = 'http://assets.example.com'
 
   # Enable asset compressors
-  config.assets.css_compressor = :yui
-  config.assets.js_compressor = :uglifier
+  # config.assets.css_compressor = :yui
+  # config.assets.js_compressor = :uglifier
 
   # Specifies the header that your server uses for sending files.
   # config.action_dispatch.x_sendfile_header = 'X-Sendfile' # for Apache
