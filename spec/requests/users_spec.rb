@@ -4,9 +4,10 @@ require 'rails_helper'
 RSpec.describe 'users API', type: :request do
   # initialize test data
   let!(:users) { create_list(:user, 10) }
-  let(:user_id) { users.first.id }
-  let(:user_email) { users.first.email}
-  let(:user_password) {users.first.password}
+  let(:user_id) { us
+}    .first.id }
+  let(:user_email) { users.first.email }
+  let(:user_password) { users.first.password }
 
   # Test suite for GET /users
   describe 'GET /users' do
@@ -55,12 +56,12 @@ RSpec.describe 'users API', type: :request do
   # Test suite for POST /users
   describe 'POST /users' do
     # valid payload
-    let(:valid_attributes) { { last_name: 'Doolittle', email: 'fake@veryfake.com', password: 'evenfakerer',
-                               password_confirmation: 'evenfakerer', phone: 1234567} }
+    let(:valid_attributes) do 
+      { last_name: 'Doolittle', email: 'fake@veryfake.com', password: 'evenfakerer',
+                               password_confirmation: 'evenfakerer', phone: 1_234_567 } end
 
     context 'when the request is valid' do
       before { post '/users', params: valid_attributes, headers: auth_headers(user_id) }
-
 
       it 'creates a user' do
         expect(json['last_name']).to eq('Doolittle')
@@ -79,8 +80,8 @@ RSpec.describe 'users API', type: :request do
       end
 
       it 'returns a validation failure message' do
-        expect(response.body)
-            .to match(/Validation failed: Password can't be blank, Email can't be blank, Last name can't be blank, Phone can't be blank/)
+        expect(response.body).
+          to match(/Validation failed: Email can't be blank, Password can't be blank/)
       end
     end
   end
