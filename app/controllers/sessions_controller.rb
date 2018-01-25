@@ -3,7 +3,7 @@ class SessionsController < ActionController::Base
 
   layout 'uswds'
 
-  before_action :verify_omniauthenticated, except: :create
+  before_action :verify_omniauthenticated, except: %i[create error]
 
   def create
     auth_hash = request.env['omniauth.auth']
@@ -15,6 +15,8 @@ class SessionsController < ActionController::Base
     if user.save
       log_in_user(user)
       redirect_to link_success_url
+    else
+      handle_error
     end
   end
 
@@ -28,6 +30,12 @@ class SessionsController < ActionController::Base
 
   def verify_omniauthenticated
     @user = User.find(session[:user_id])
-    redirect_to error_path if @user.login_uid.blank?
+    handle_error unless @user.login_linked?
+  rescue StandardError
+    handle_error
+  end
+
+  def handle_error
+    redirect_to error_path
   end
 end

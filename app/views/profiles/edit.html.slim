@@ -1,7 +1,7 @@
 h1 Edit profile
 
 - if @user.phone.blank?
-	p In order to receive notifications, we need a phone number capable of receive text (SMS) messages.
+	p In order to receive notifications, we need a phone number capable of receiving text (SMS) messages.
 
 = form_for(@user, { url: '/profile' }) do |f|
 
