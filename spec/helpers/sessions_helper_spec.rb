@@ -11,5 +11,11 @@ require 'rails_helper'
 #   end
 # end
 RSpec.describe SessionsHelper, type: :helper do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe 'current_user' do
+    it 'returns the currently logged in user' do
+      user = create(:user)
+      session[:user_id] = user.id
+      expect(helper.current_user.id).to eq(user.id)
+    end
+  end
 end
