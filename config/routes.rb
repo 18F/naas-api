@@ -39,4 +39,5 @@ Rails.application.routes.draw do
 
   post 'auth/:provider/callback', to: 'sessions#create'
   get 'link_success', to: 'sessions#link_success'
+  get 'error', to: 'sessions#error'
 end

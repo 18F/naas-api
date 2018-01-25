@@ -1,7 +1,9 @@
 class SessionsController < ActionController::Base
+  include SessionsHelper
+
   layout 'uswds'
 
-  before_action :require_
+  before_action :verify_omniauthenticated, except: :create
 
   def create
     auth_hash = request.env['omniauth.auth']
@@ -17,7 +19,15 @@ class SessionsController < ActionController::Base
   end
 
   def link_success
-    @user = User.find(session[:user_id])
     redirect_to edit_profile_path if @user.phone.blank?
+  end
+
+  def error; end
+
+  private
+
+  def verify_omniauthenticated
+    @user = User.find(session[:user_id])
+    redirect_to error_path if @user.login_uid.blank?
   end
 end

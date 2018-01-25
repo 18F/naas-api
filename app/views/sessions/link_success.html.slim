@@ -11,5 +11,4 @@ input type="text" value="#{@user.phone}" disabled="disabled"
 
 = button_to('Update Phone Number', edit_profile_path, method: :get)
 
-= button_to('Return to Login.gov', Rails.application.secrets.login_url, { method: :get, class: 'usa-button-secondary' })
-/ a href="https://login-demo.app.cloud.gov/account" Return to login.gov
+= render 'shared/return_to_login'
