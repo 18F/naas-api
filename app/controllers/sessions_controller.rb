@@ -8,7 +8,8 @@ class SessionsController < ActionController::Base
   def create
     auth_hash = request.env['omniauth.auth']
     session[:auth] = { login_uid: auth_hash['uid'],
-                       email: auth_hash['info']['email'] }
+                       email: auth_hash['info']['email'],
+                       phone: auth_hash['extra']['raw_info'].attributes['mfa_phone'].first }
 
     user = User.from_omniauth(auth_hash)
 

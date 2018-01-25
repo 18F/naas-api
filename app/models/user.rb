@@ -11,6 +11,7 @@ class User < ApplicationRecord
 
   def self.from_omniauth(auth)
     login_user = where(email: auth['info']['email']).first_or_create do |user|
+      user.phone = auth['extra']['raw_info'].attributes['mfa_phone'].first
       user.login_uid = auth.uid
       user.password = SecureRandom.base64
     end

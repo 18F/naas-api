@@ -23,6 +23,22 @@ RSpec.describe 'notification events API', type: :request do
     end
   end
 
+  describe 'GET /users/:login_uid/notification_events' do
+    let!(:user) { create(:user, :authenticated) }
+
+    before { get "/users/#{user.login_uid}/notification_events", headers: auth_headers(user.id) }
+
+    context 'when events exists' do
+      it 'returns status code 200' do
+        expect(response).to have_http_status(200)
+      end
+
+      it 'returns all notification events for that user' do
+        expect(json.size).to eq(20)
+      end
+    end
+  end
+
   # Test suite for GET /notifications/:notification_id/user_subscriptions/:id
   describe 'GET /users/:user_id/notification_events/:id' do
     before { get "/users/#{user_id}/notification_events/#{id}", headers: auth_headers(user.id) }
