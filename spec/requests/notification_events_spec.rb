@@ -1,7 +1,8 @@
 require 'rails_helper'
 
-RSpec.d
-}      _events) { create_list(:notification_event, 20, user_id: user.id) }
+RSpec.describe 'notification events API', type: :request do
+  let!(:user) { create(:user) }
+  let!(:notification_events) { create_list(:notification_event, 20, user_id: user.id) }
   let(:user_id) { user.id }
   let(:id) { notification_events.first.id }
 

@@ -6,12 +6,11 @@ RSpec.describe 'subscribe API', type: :request do
   headers = {
     'ACCEPT' => 'application/json'
   }
-  d
-}    cribe 'POST /subscribe' do
-    let(:valid_attributes) {
-      { phone: '1234567890',
-                             body: 'A Sample Subscribe Message',
-                             source_app: 'my_app_name' }}
+  
+  describe 'POST /subscribe' do
+    let(:valid_attributes) { { phone: "1234567890",
+                              body: "A Sample Subscribe Message",
+                              source_app: "my_app_name" } }
 
     context 'when subscibe message is sent' do
       before { post '/subscribe', params: valid_attributes, headers: auth_headers(user.id) }

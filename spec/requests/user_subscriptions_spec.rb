@@ -1,5 +1,8 @@
-# app/requests/user_subscriptions_controller_sp
-}      let!(:notification) { create(:notification) }
+require 'rails_helper'
+
+RSpec.describe 'user_subscriptions API' do
+  # Initialize the test data
+  let!(:notification) { create(:notification) }
   let!(:user) { create(:user) }
   let!(:user_subscriptions) { create_list(:user_subscription, 20, notification_id: notification.id, user_id: user.id) }
   let(:notification_id) { notification.id }
@@ -32,7 +35,7 @@
       end
 
       it 'returns a not found message' do
-        expect(response.body).to match(/{"message":"Couldn't find Notification with 'id'=0"}/)
+        expect(response.body).to match(/Couldn't find Notification with 'id'=0"/)
       end
     end
   end

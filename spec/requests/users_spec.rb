@@ -4,10 +4,9 @@ require 'rails_helper'
 RSpec.describe 'users API', type: :request do
   # initialize test data
   let!(:users) { create_list(:user, 10) }
-  let(:user_id) { us
-}    .first.id }
-  let(:user_email) { users.first.email }
-  let(:user_password) { users.first.password }
+  let(:user_id) { users.first.id }
+  let(:user_email) { users.first.email}
+  let(:user_password) {users.first.password}
 
   # Test suite for GET /users
   describe 'GET /users' do
@@ -56,9 +55,8 @@ RSpec.describe 'users API', type: :request do
   # Test suite for POST /users
   describe 'POST /users' do
     # valid payload
-    let(:valid_attributes) do 
-      { last_name: 'Doolittle', email: 'fake@veryfake.com', password: 'evenfakerer',
-                               password_confirmation: 'evenfakerer', phone: 1_234_567 } end
+    let(:valid_attributes) { { last_name: 'Doolittle', email: 'fake@veryfake.com', password: 'evenfakerer',
+                               password_confirmation: 'evenfakerer', phone: 1234567} }
 
     context 'when the request is valid' do
       before { post '/users', params: valid_attributes, headers: auth_headers(user_id) }

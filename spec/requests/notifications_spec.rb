@@ -2,10 +2,7 @@
 require 'rails_helper'
 
 RSpec.describe 'notifications API', type: :request do
-
-}    # initialize test data
-  let!(:notifications) { create_list(:notific
-}    ion, 10) }
+  let!(:notifications) { create_list(:notification, 10) }
   let(:notification_id) { notifications.first.id }
   let!(:user) { create(:user) }
   let(:user_id) { user.id }
@@ -20,8 +17,6 @@ RSpec.describe 'notifications API', type: :request do
     it 'returns notifications' do
       # Note `json` is a custom helper to parse JSON responses
       expect(json).not_to be_empty
-
-      skip 'This spec is invalid! Returning 13 instead of 10!'
       expect(json.size).to eq(10)
     end
 
