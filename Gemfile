@@ -14,7 +14,6 @@ gem 'puma', '~> 3.7'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'rails', '~> 5.1.4'
 gem 'rspec_junit_formatter'
-gem 'rubocop', require: false
 gem 'sass-rails'
 gem 'simple_command'
 gem 'slim'
@@ -24,9 +23,9 @@ gem 'uswds-rails', github: '18F/uswds-rails-gem'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'dotenv-rails', :groups => [:development, :test]
+  gem 'dotenv-rails'
   gem 'rspec-rails', '~> 3.5'
-  gem 'simplecov', :require => false
+  gem 'simplecov', require: false
   gem 'sqlite3'
 end
 
