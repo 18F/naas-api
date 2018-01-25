@@ -3,11 +3,11 @@ module Request
 
   module AuthHelpers
     def auth_headers(user_id)
-      payload = {user_id: user_id}
+      payload = { user_id: user_id }
       payload[:exp] = 24.hours.from_now.to_i
       token = JWT.encode(payload, Rails.application.secrets.secret_key_base)
       {
-          'Authorization': " #{token}"
+        'Authorization': " #{token}"
       }
     end
   end
