@@ -3,9 +3,8 @@ require 'rails_helper'
 
 RSpec.describe 'notifications API', type: :request do
 
-}    # initialize test data
-  let!(:notifications) { create_list(:notific
-}    ion, 10) }
+  # initialize test data
+  let!(:notifications) { create_list(:notificion, 10) }
   let(:notification_id) { notifications.first.id }
   let!(:user) { create(:user) }
   let(:user_id) { user.id }
@@ -142,7 +141,7 @@ RSpec.describe 'notifications API', type: :request do
                   headers: auth_headers(user.id) end
 
     it 'sends message to provided numbers' do
-      expect(FakeSMS.messages.last.num).to eq('1234567')
+      expect(FakeSMS.messages.last.num).to eq("1234567")
       expect(FakeSMS.messages.first.num).to eq(user.phone)
       expect(2).to eq(FakeSMS.messages.size)
     end

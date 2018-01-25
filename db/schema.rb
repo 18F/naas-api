@@ -20,17 +20,6 @@ ActiveRecord::Schema.define(version: 20180123205956) do
     t.text "body"
   end
 
-  create_table "user_subscriptions", force: :cascade do |t|
-    t.string "name"
-    t.integer "notification_id"
-    t.integer "users_id"
-    t.integer "user_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["notification_id"], name: "index_user_subscriptions_on_notification_id"
-    t.index ["users_id"], name: "index_user_subscriptions_on_users_id"
-  end
-
   create_table "users", force: :cascade do |t|
     t.string "email"
     t.string "first_name"
@@ -45,6 +34,27 @@ ActiveRecord::Schema.define(version: 20180123205956) do
     t.string "login_uid"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["phone"], name: "index_users_on_phone", unique: true
+  end
+
+  create_table "user_subscriptions", force: :cascade do |t|
+    t.string "name"
+    t.integer "notification_id"
+    t.integer "users_id"
+    t.integer "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["notification_id"], name: "index_user_subscriptions_on_notification_id"
+    t.index ["users_id"], name: "index_user_subscriptions_on_users_id"
+  end
+
+  create_table "notification_events", force: :cascade do |t|
+    t.text "body"
+    t.boolean "unread"
+    t.integer "users_id"
+    t.integer "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["users_id"], name: "index_notification_events_on_users_id"
   end
 
 end
