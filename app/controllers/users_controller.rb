@@ -1,6 +1,6 @@
 # app/controllers/users_controller.rb
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show, :update, :destroy, :notifications]
+  before_action :set_user, only: [:show, :edit, :update, :destroy, :notifications]
 
   # GET /Users
   def index

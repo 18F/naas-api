@@ -1,0 +1,15 @@
+h1 NaaS Demo
+
+.usa-alert.usa-alert-success
+  .usa-alert-body
+  	h3.usa-alert-heading Link successful
+  	p.usa-alert-text Your Login.gov account has been successfully linked!
+
+p You will receive notifications at the following phone number:
+
+input type="text" value="#{@user.phone}" disabled="disabled"
+
+= button_to('Update Phone Number', edit_profile_path, method: :get)
+
+= button_to('Return to Login.gov', Rails.application.secrets.login_url, { method: :get, class: 'usa-button-secondary' })
+/ a href="https://login-demo.app.cloud.gov/account" Return to login.gov
