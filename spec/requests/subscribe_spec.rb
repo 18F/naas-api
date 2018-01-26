@@ -33,7 +33,7 @@ RSpec.describe 'subscribe API', type: :request do
     end
 
     context 'when number is not found' do
-      before { post '/confirm', params: { From: '+2' } }
+      before { post '/confirm', params: { From: '+45678notanumber', Body: 'YES' } }
 
       it 'returns object not found' do
         expect(response).to have_http_status(404)

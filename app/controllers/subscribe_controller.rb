@@ -5,7 +5,7 @@ class SubscribeController < ApplicationController
   def show
     #authenticate_request
     SmsTool.send_sms(params[:phone],
-                     "Welcome to Notifications-as-a-Service or NAAS. To continue receiving messages reply with 'YES'",
+                     "Welcome to Notifications-as-a-Service (NaaS). To continue receiving messages reply with 'YES'",
                      "My App")
   end
 
