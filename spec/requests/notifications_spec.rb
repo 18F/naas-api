@@ -114,7 +114,7 @@ RSpec.describe 'notifications API', type: :request do
   describe 'POST /users' do
     let(:valid_attributes) {
       { last_name: 'Doolittle', email: 'fakey@veryfake.com', password: 'evenfakerer',
-                              password_confirmation: 'evenfakerer', phone: 1_234_567 }}
+                              password_confirmation: 'evenfakerer', phone: '1 222 555 1244' }}
 
     before do
       post '/users',
@@ -139,7 +139,7 @@ RSpec.describe 'notifications API', type: :request do
     end
 
     it 'sends message to all provided numbers' do
-      expect(FakeSMS.messages.last.num).to eq('1234567')
+      expect(FakeSMS.messages.last.num).to eq('+12225551244')
       expect(FakeSMS.messages[-2].num).to eq(user.phone)
       expect(FakeSMS.messages.size).to eq(4)
     end

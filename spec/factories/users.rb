@@ -5,7 +5,9 @@ FactoryBot.define do
     middle_name 'MyString'
     last_name 'MyString'
     password 'password'
-    sequence(:phone, &:to_s)
+    sequence :phone do |_n|
+      "+1 (202) 555-#{rand(1000..9999)}"
+    end
     confirmed false
 
     trait :authenticated do
