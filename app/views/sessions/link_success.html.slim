@@ -1,0 +1,14 @@
+h1 NaaS Demo
+
+.usa-alert.usa-alert-success
+  .usa-alert-body
+  	h3.usa-alert-heading Link successful
+  	p.usa-alert-text Your Login.gov account has been successfully linked!
+
+p You will receive notifications at the following phone number:
+
+input type="text" value="#{@user.phone}" disabled="disabled"
+
+= button_to('Update Phone Number', edit_profile_path, method: :get)
+
+= render 'shared/return_to_login'

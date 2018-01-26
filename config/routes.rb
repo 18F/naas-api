@@ -20,6 +20,9 @@ Rails.application.routes.draw do
     resources :notification_events
   end
 
+  get 'profile', to: 'profiles#edit', as: :edit_profile
+  patch 'profile', to: 'profiles#update', as: :update_profile
+
   resources :users do
     member do
       get 'subscribed_notifications'
@@ -33,4 +36,8 @@ Rails.application.routes.draw do
   post 'confirm', to: 'subscribe#confirm'
 
   post 'authenticate', to: 'authentication#authenticate'
+
+  post 'auth/:provider/callback', to: 'sessions#create'
+  get 'link_success', to: 'sessions#link_success'
+  get 'error', to: 'sessions#error'
 end

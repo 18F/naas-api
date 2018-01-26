@@ -8,7 +8,7 @@ RSpec.describe 'notification events API', type: :request do
 
   # Test suite for GET /notifications/:notification_id/user_subscriptions
   describe 'GET /users/:user_id/notification_events' do
-    #?user_id=" + user_id.to_s
+    # ?user_id=" + user_id.to_s
 
     before { get "/users/#{user_id}/notification_events", headers: auth_headers(user.id) }
 
@@ -23,9 +23,25 @@ RSpec.describe 'notification events API', type: :request do
     end
   end
 
+  describe 'GET /users/:login_uid/notification_events' do
+    let!(:user) { create(:user, :authenticated) }
+
+    before { get "/users/#{user.login_uid}/notification_events", headers: auth_headers(user.id) }
+
+    context 'when events exists' do
+      it 'returns status code 200' do
+        expect(response).to have_http_status(200)
+      end
+
+      it 'returns all notification events for that user' do
+        expect(json.size).to eq(20)
+      end
+    end
+  end
+
   # Test suite for GET /notifications/:notification_id/user_subscriptions/:id
   describe 'GET /users/:user_id/notification_events/:id' do
-    before { get "/users/#{user_id}/notification_events/#{id}", headers: auth_headers(user.id)  }
+    before { get "/users/#{user_id}/notification_events/#{id}", headers: auth_headers(user.id) }
 
     context 'when notification event exists' do
       it 'returns status code 200' do
@@ -51,23 +67,23 @@ RSpec.describe 'notification events API', type: :request do
     let(:valid_attributes) { { body: 'Visit Narnia', user_id: user_id, unread: true } }
 
     context 'when request attributes are valid' do
-      before { post "/users/#{user_id}/notification_events", params: valid_attributes,
-                    headers: auth_headers(user.id)  }
+      before do 
+        post "/users/#{user_id}/notification_events", params: valid_attributes,
+                                                             headers: auth_headers(user.id)  end
 
       it 'returns status code 201' do
         expect(response).to have_http_status(201)
       end
 
-=begin
-      it 'expect json to have id of subscription' do
-        expect(json['user_id']).to eq(user_id)
-      end
-=end
+#       it 'expect json to have id of subscription' do
+#         expect(json['user_id']).to eq(user_id)
+#       end
     end
 
     context 'when an invalid request' do
-      before { post "/users/#{user_id}/notification_events", params: {user_id: user_id},
-                    headers: auth_headers(user.id)  }
+      before do 
+        post "/users/#{user_id}/notification_events", params: { user_id: user_id },
+                                                             headers: auth_headers(user.id)  end
 
       it 'returns status code 422' do
         expect(response).to have_http_status(422)
@@ -83,8 +99,9 @@ RSpec.describe 'notification events API', type: :request do
   describe 'PUT /notifications/:notification_id/user_subscriptions/:id' do
     let(:valid_attributes) { { unread: '1' } }
 
-    before { put "/users/#{user_id}/notification_events/#{id}", params: valid_attributes,
-                 headers: auth_headers(user.id) }
+    before do 
+      put "/users/#{user_id}/notification_events/#{id}", params: valid_attributes,
+                                                                headers: auth_headers(user.id) end
 
     context 'when user_subscription exists' do
       it 'returns status code 204' do
@@ -102,7 +119,7 @@ RSpec.describe 'notification events API', type: :request do
   end
 
   describe 'DELETE /users/:user_id/notification_events/:id' do
-    before { delete "/users/#{user_id}/notification_events/#{id}", headers: auth_headers(user.id)  }
+    before { delete "/users/#{user_id}/notification_events/#{id}", headers: auth_headers(user.id) }
 
     it 'returns status code 204' do
       expect(response).to have_http_status(204)

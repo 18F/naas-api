@@ -1,0 +1,27 @@
+doctype html
+html lang="en"
+
+  head
+    meta charset='utf-8'
+    meta name='description' content="#{content_for?(:description) ? yield(:description) : APP_NAME}"
+    meta http-equiv='X-UA-Compatible' content='IE=edge'
+    meta name='msapplication-config' content='none'
+    meta[name='viewport' content='width=device-width, initial-scale=1.0']
+    meta name="format-detection" content="telephone=no"
+
+    title
+      = APP_NAME
+      - if content_for?(:title)
+        = ' - '
+        = yield(:title)
+
+    == stylesheet_link_tag 'application', media: 'all'
+
+  body class="#{Rails.env}-env layout-demo"
+    a.usa-skipnav href="#main-content" Skip to main content
+    header class="usa-header usa-header-basic" role="banner"
+      = render 'shared/usa_banner'
+    .usa-overlay
+    .usa-grid.usa-section.usa-content.usa-layout-doc#main-content
+      .usa-width-three-fourths.usa-layout-docs-main_content
+        == yield

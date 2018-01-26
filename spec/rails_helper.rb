@@ -3,12 +3,13 @@ require 'simplecov'
 SimpleCov.start
 require 'spec_helper'
 require 'support/factory_bot'
+require 'auth_helper'
 
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../../config/environment', __FILE__)
 Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
 # Prevent database truncation if the environment is production
-abort("The Rails environment is running in production mode!") if Rails.env.production?
+abort('The Rails environment is running in production mode!') if Rails.env.production?
 require 'rspec/rails'
 # Add additional requires below this line. Rails is not loaded until this point!
 
@@ -60,6 +61,10 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
+
+  config.before(:each) do
+    FakeSMS.clear
+  end
 end
 
 require 'shoulda-matchers'
@@ -74,6 +79,6 @@ Shoulda::Matchers.configure do |config|
     with.library :active_model
     with.library :action_controller
     # Or, choose the following (which implies all of the above):
-    #with.library :rails
+    # with.library :rails
   end
 end

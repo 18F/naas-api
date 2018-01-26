@@ -44,7 +44,9 @@ class NotificationEventsController < ApplicationController
   end
 
   def set_user
-    @user = User.find(params[:user_id])
+    # Create new endpoint? This needs to be fixed.
+    @user = User.where(id: params[:user_id]).or(
+      User.where(login_uid: params[:user_id])).first
   end
 
   def set_notification_event

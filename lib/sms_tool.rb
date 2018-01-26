@@ -8,7 +8,7 @@ module SmsTool
   def self.send_sms(num, msg, app)
     @client.messages.create(
         from: Rails.application.secrets.twilio_number,
-        to: "+1#{num}",
+        to: "#{num}",
         body: "#{msg} from #{app}"
     )
   end

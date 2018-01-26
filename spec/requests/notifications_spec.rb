@@ -2,13 +2,12 @@
 require 'rails_helper'
 
 RSpec.describe 'notifications API', type: :request do
-  # initialize test data
   let!(:notifications) { create_list(:notification, 10) }
   let(:notification_id) { notifications.first.id }
   let!(:user) { create(:user) }
   let(:user_id) { user.id }
-  let(:user_email) { user.email}
-  let(:user_password) {user.password}
+  let(:user_email) { user.email }
+  let(:user_password) { user.password }
 
   # Test suite for GET /notifications
   describe 'GET /notifications' do
@@ -60,7 +59,7 @@ RSpec.describe 'notifications API', type: :request do
     let(:valid_attributes) { { name: 'Learn Elm', created_by: '1' } }
 
     context 'when the request is valid' do
-      before { post '/notifications', params: valid_attributes, headers: auth_headers(user.id)  }
+      before { post '/notifications', params: valid_attributes, headers: auth_headers(user.id) }
 
       it 'creates a notification' do
         expect(json['name']).to eq('Learn Elm')
@@ -79,8 +78,8 @@ RSpec.describe 'notifications API', type: :request do
       end
 
       it 'returns a validation failure message' do
-        expect(response.body)
-            .to match(/Validation failed: Created by can't be blank/)
+        expect(response.body).
+          to match(/Validation failed: Created by can't be blank/)
       end
     end
   end
@@ -113,30 +112,42 @@ RSpec.describe 'notifications API', type: :request do
 
   # Test suite for multiple SMS send
   describe 'POST /users' do
-    let(:valid_attributes) {{ last_name: 'Doolittle', email: 'fakey@veryfake.com', password: 'evenfakerer',
-                              password_confirmation: 'evenfakerer', phone: 1234567}}
+    let(:valid_attributes) {
+      { last_name: 'Doolittle', email: 'fakey@veryfake.com', password: 'evenfakerer',
+                              password_confirmation: 'evenfakerer', phone: '1 222 555 1244' }}
 
-    before { post '/users',
+    before do
+      post '/users',
                   params: valid_attributes,
-                  headers: auth_headers(user_id) }
+                  headers: auth_headers(user_id)
 
-    before { post "/notifications/#{notification_id}/user_subscriptions",
-                  params:{"user_id":user_id,"name":"targeted_alert"},
-                  headers: auth_headers(user_id) }
+      post "/notifications/#{notification_id}/user_subscriptions",
+                  params: { "user_id": user_id, "name": 'targeted_alert' },
+                  headers: auth_headers(user_id)
 
-    before { post "/notifications/#{notification_id}/user_subscriptions",
-                  params:{"user_id":2,"name":"targeted_alert"},
-                  headers: auth_headers(user_id) }
+      post "/notifications/#{notification_id}/user_subscriptions",
+                  params: { "user_id": 2, "name": 'targeted_alert' },
+                  headers: auth_headers(user_id)
 
-    before { post "/notifications/#{notification_id}/send_group_notification",
-                  params: {"body": "hello humanz"},
-                  headers: auth_headers(user.id)}
+      post "/notifications/#{notification_id}/send_group_notification",
+                  params: { "body": 'hello humanz' },
+                  headers: auth_headers(user.id)
 
-    it 'sends message to provided numbers' do
-      expect(FakeSMS.messages.last.num).to eq("1234567")
-      expect(FakeSMS.messages.first.num).to eq(user.phone)
-      expect(2).to eq(FakeSMS.messages.size)
+      post "/notifications/#{notification_id}/send_group_notification",
+                  params: { "body": 'hello humanz again' },
+                  headers: auth_headers(user.id)
     end
 
+    it 'sends message to all provided numbers' do
+      expect(FakeSMS.messages.last.num).to eq('+12225551244')
+      expect(FakeSMS.messages[-2].num).to eq(user.phone)
+      expect(FakeSMS.messages.size).to eq(4)
+    end
+
+    it 'creates notification events for each notification instance' do
+      expect(user.notification_events.size).to eq(2)
+      expect(user.notification_events.last.body).to match(/hello humanz again/)
+      expect(response.body).to match(/result\":\"success\",\"user_count\":2/)
+    end
   end
 end

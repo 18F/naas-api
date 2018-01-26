@@ -10,4 +10,7 @@ module FakeSMS
     @messages
   end
 
+  def self.clear
+  	@messages = []
+  end
 end

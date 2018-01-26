@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180123185328) do
+ActiveRecord::Schema.define(version: 20180123205956) do
 
   create_table "notification_events", force: :cascade do |t|
     t.text "body"
@@ -52,6 +52,7 @@ ActiveRecord::Schema.define(version: 20180123185328) do
     t.string "password_digest"
     t.string "name"
     t.boolean "confirmed"
+    t.string "login_uid"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["phone"], name: "index_users_on_phone", unique: true
   end

@@ -56,11 +56,10 @@ RSpec.describe 'users API', type: :request do
   describe 'POST /users' do
     # valid payload
     let(:valid_attributes) { { last_name: 'Doolittle', email: 'fake@veryfake.com', password: 'evenfakerer',
-                               password_confirmation: 'evenfakerer', phone: 1234567} }
+                               password_confirmation: 'evenfakerer', phone: '  202 555 124 2'} }
 
     context 'when the request is valid' do
       before { post '/users', params: valid_attributes, headers: auth_headers(user_id) }
-
 
       it 'creates a user' do
         expect(json['last_name']).to eq('Doolittle')
@@ -79,8 +78,8 @@ RSpec.describe 'users API', type: :request do
       end
 
       it 'returns a validation failure message' do
-        expect(response.body)
-            .to match(/Validation failed: Password can't be blank, Email can't be blank, Last name can't be blank, Phone can't be blank/)
+        expect(response.body).
+          to match(/Validation failed: Email can't be blank, Password can't be blank/)
       end
     end
   end

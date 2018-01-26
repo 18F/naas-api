@@ -42,8 +42,10 @@ class NotificationsController < ApplicationController
     body = params[:body] || @notifications.body
     users.each do |user|
        SmsTool.send_sms(user.phone, body, 'naas-api' )
+       user.notification_events << NotificationEvent.create(body: body)
+       user.save
     end
-
+    render json: { result: 'success', user_count: users.size }
   end
 
   private
