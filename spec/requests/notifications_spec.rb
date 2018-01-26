@@ -147,6 +147,7 @@ RSpec.describe 'notifications API', type: :request do
     it 'creates notification events for each notification instance' do
       expect(user.notification_events.size).to eq(2)
       expect(user.notification_events.last.body).to match(/hello humanz again/)
+      expect(response.body).to match(/result\":\"success\",\"user_count\":2/)
     end
   end
 end
