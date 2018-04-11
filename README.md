@@ -1,5 +1,5 @@
 # naas-api
-API for notifications service (notfications-as-a-service or NAAS) prototype
+API for notifications service (notifications-as-a-service or NAAS) prototype
 
 
 ## Development
